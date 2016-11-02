@@ -7,10 +7,10 @@ We have app written very poorly in Swift (I am objc developer originally, and th
 ### TODO:
 - correct if let and guard usage
 - unneccessary force unwrapping avoidance
-- Alecrim Core Data usage
-- move from NSNotification center usage to delegates
+- remove NSNotification center usage
 - unit tests with XCTest
-- UI Tests
+- UI Tests with XCTest
+- ...
 
 
 ### Done:
