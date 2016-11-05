@@ -1,0 +1,174 @@
+//
+//  MainViewController.swift
+//  Stock Car Broadcast Remainder
+//
+//  Created by Alex Golub on 2/21/16.
+//  Copyright © 2016 Alex Golub. All rights reserved.
+//
+
+import UIKit
+
+final class MainViewController: UIViewController {
+    @IBOutlet weak var mainTableView: UITableView!
+
+    fileprivate var currentWeekEventsArray = [Event]()
+    fileprivate var futureEventsArray = [Event]()
+    fileprivate let cellIdentifier: String = "mainCell"
+    fileprivate let eventDetailsSegue = "toEventDetails"
+    fileprivate let mainTableViewSectionsCount = 2
+    fileprivate let currentWeekEventsSection = 0
+    fileprivate let futureEventsSection = 1
+    fileprivate let mainTableViewCellHeight: CGFloat = 100.0
+    fileprivate let mainTableViewHeaderHeight: CGFloat = 30.0
+    fileprivate let mainTableViewFooterHeight: CGFloat = 0.01
+
+    fileprivate var selectedEvent: Event?
+
+    override func viewDidLoad() {
+        updateEvents()
+        super.viewDidLoad()
+        // TODO:
+//        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Series", style: .plain, target: self, action: "presentLeftMenuViewController")
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Calendar", style: .Plain, target: self, action: "presentRightMenuViewController")
+//        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.selectedSeriesChanged(_:)), name: NSNotification.Name(rawValue: Notifications.updateSeriesNotification), object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.displayEvent(_:)), name: NSNotification.Name(rawValue: Notifications.displayEventData), object: nil)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == eventDetailsSegue {
+            let edvc = segue.destination as! EventDetailsViewController
+            edvc.event = selectedEvent
+        }
+    }
+
+    func selectedSeriesChanged(notification: Notification) {
+        updateEvents()
+        let sectionsIndexSet:IndexSet = IndexSet(integersIn: NSMakeRange(0, mainTableView.numberOfSections).toRange()!)
+        mainTableView.reloadSections(sectionsIndexSet, with: .automatic)
+    }
+
+    func displayEvent(notification: Notification) {
+    }
+
+    fileprivate func updateEvents() {
+        let databaseManager = DatabaseManager.sharedInstance
+        let fetchedCurrentWeekEventsArray = databaseManager.currentWeekEvents()
+        if fetchedCurrentWeekEventsArray.isEmpty == true {
+            currentWeekEventsArray = []
+            //TODO:
+            futureEventsArray = databaseManager.futureEvents(afterEvent: nil)
+//            futureEventsArray = databaseManager.events()
+        } else {
+            currentWeekEventsArray = fetchedCurrentWeekEventsArray 
+            let lastEventOfWeek = currentWeekEventsArray.last
+            futureEventsArray = databaseManager.futureEvents(afterEvent: lastEventOfWeek)
+        }
+    }
+}
+
+extension MainViewController : UITableViewDataSource {
+
+    //MARK: - TableView DataSource
+
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return mainTableViewSectionsCount
+    }
+
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if section == currentWeekEventsSection {
+            return currentWeekEventsArray.count
+        }
+        return futureEventsArray.count
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MainTableViewCell
+        if indexPath.section == currentWeekEventsSection {
+            let event = currentWeekEventsArray[indexPath.row]
+            cell.cellWithEvent(event: event)
+            cell.delegate = self
+        } else if indexPath.section == futureEventsSection {
+            let event = futureEventsArray[indexPath.row]
+            cell.cellWithEvent(event: event)
+            cell.delegate = self
+        }
+        return cell
+    }
+}
+
+extension MainViewController : UITableViewDelegate {
+
+    //MARK: - TableView Delegate
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if (indexPath as NSIndexPath).section == currentWeekEventsSection {
+            selectedEvent = currentWeekEventsArray[indexPath.row]
+        } else if (indexPath as NSIndexPath).section == futureEventsSection {
+            selectedEvent = futureEventsArray[indexPath.row]
+        }
+        performSegue(withIdentifier: eventDetailsSegue, sender: self)
+    }
+
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return mainTableViewCellHeight
+    }
+
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = Bundle.main.loadNibNamed("TableViewLabelHeaderView", owner: self, options: nil)?[0] as! TableViewLabelHeaderView
+        if section == currentWeekEventsSection {
+            if currentWeekEventsArray.count > 0 {
+                headerView.textLabel.text = "Upcoming events"
+                return headerView
+            }
+        } else if section == futureEventsSection {
+            if futureEventsArray.count > 0 {
+                headerView.textLabel.text = "Future events"
+                return headerView
+            }
+        }
+        return nil
+    }
+
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == currentWeekEventsSection, currentWeekEventsArray.count > 0 {
+            return mainTableViewHeaderHeight
+        } else if section == futureEventsSection, futureEventsArray.count > 0 {
+            return mainTableViewHeaderHeight
+        }
+        return 0.0
+    }
+
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return mainTableViewFooterHeight
+    }
+}
+
+extension MainViewController: MainTableViewCellDelegate {
+    func displayPicker(forEvent event: Event, cell: MainTableViewCell) {
+        let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+
+        let fifteenMinutesAction = UIAlertAction(title: "15 minutes before", style: .default) { (action) in
+            // TODO:
+//            let testDate = Date().addingTimeInterval(10.0)
+//            LocalNotificationsManager.createLocalNotification(event, fireDate: testDate, completion: {
+//                self.updateCellAppearanceAsNotified(event, cell: cell)
+//            })
+        }
+        let thirtyMinutesAction = UIAlertAction(title: "30 minutes before", style: .default) { (action) in }
+        let hourAction = UIAlertAction(title: "1 hour before", style: .default) { (action) in }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in }
+
+        alertController.addAction(fifteenMinutesAction)
+        alertController.addAction(thirtyMinutesAction)
+        alertController.addAction(hourAction)
+        alertController.addAction(cancelAction)
+
+        present(alertController, animated: true, completion: nil)
+    }
+
+    func updateCellAppearanceAsNotified(event: Event, cell: MainTableViewCell) {
+        event.isReminderSet = true
+        DatabaseManager.sharedInstance.saveContext()
+        cell.setReminderStatusButtonImage()
+    }
+}
