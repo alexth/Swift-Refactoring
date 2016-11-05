@@ -46,19 +46,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK:- Utils
 
     func loadAppropriateStoryboard() {
-        let standardDefaults = UserDefaults.standard
-        let isFirstRun = "isFirstRun"
-        if standardDefaults.object(forKey: isFirstRun) != nil {
-            let mainStoryboard =  UIStoryboard.init(name: "Main", bundle: nil)
-            let mnc = mainStoryboard.instantiateViewController(withIdentifier : "mainNavigationController") as! UINavigationController
-            window?.rootViewController = mnc
-        } else {
-            standardDefaults.set(Date(), forKey: isFirstRun)
+        // TODO:
+//        let standardDefaults = UserDefaults.standard
+//        let isFirstRun = "isFirstRun"
+//        if standardDefaults.object(forKey: isFirstRun) != nil {
+//            let mainStoryboard =  UIStoryboard.init(name: "Main", bundle: nil)
+//            let mnc = mainStoryboard.instantiateViewController(withIdentifier : "mainNavigationController") as! UINavigationController
+//            window?.rootViewController = mnc
+//        } else {
+//            standardDefaults.set(Date(), forKey: isFirstRun)
             DatabaseManager.sharedInstance.importData()
 
             let seriesStoryboard =  UIStoryboard.init(name: "Series", bundle: nil)
             let snc = seriesStoryboard.instantiateViewController(withIdentifier : "seriesNavigationController") as! UINavigationController
             window?.rootViewController = snc
-        }
+//        }
     }
 }

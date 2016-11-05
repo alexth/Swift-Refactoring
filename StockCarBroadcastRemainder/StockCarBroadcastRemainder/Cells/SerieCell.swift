@@ -39,11 +39,10 @@ class SerieCell: UITableViewCell {
                 serieShortTitleLabel.font = UIFont.systemFont(ofSize: 14.0, weight: UIFontWeightLight)
                 
                 UIView.animate(withDuration: 0.3, animations: { () -> Void in
-                    
                     self.checkboxWidthConstraint.constant = self.checkboxWidthConstraintShrink
                     self.serieTitleLeadingConstraint.constant = self.serieTitleLeadingConstraintShrink
                     self.serieShortTitleLeadingConstraint.constant = self.serieShortTitleLeadingConstraintShrink
-                    }, completion: nil)
+                })
             }
         } else {
             serieImageView.image = UIImage(named: serie.imageID!)
@@ -55,11 +54,10 @@ class SerieCell: UITableViewCell {
             serieShortTitleLabel.font = UIFont.systemFont(ofSize: 14.0, weight: UIFontWeightMedium)
             
             UIView.animate(withDuration: 0.3, animations: { () -> Void in
-                
                 self.checkboxWidthConstraint.constant = self.checkboxWidthConstraintDefault
                 self.serieTitleLeadingConstraint.constant = self.serieTitleLeadingConstraintDefault
                 self.serieShortTitleLeadingConstraint.constant = self.serieShortTitleLeadingConstraintDefault
-                }, completion: nil)
+            })
         }
     }
 }
