@@ -25,6 +25,7 @@ final class MainViewController: UIViewController {
     fileprivate var selectedEvent: Event?
 
     override func viewDidLoad() {
+        navigationController?.navigationBar.isHidden = false
         updateEvents()
         super.viewDidLoad()
         // TODO:

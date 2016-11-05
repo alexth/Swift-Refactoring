@@ -10,22 +10,36 @@ import UIKit
 
 final class SeriesViewController: UIViewController {
     @IBOutlet weak var seriesTableView: UITableView!
-    @IBOutlet weak var tipLabel: UILabel!
+    @IBOutlet weak var goNextButton: UIButton!
+    @IBOutlet weak var seriesCountLabel: UILabel!
 
-    var seriesArray = [AnyObject]()
-    let seriesCellIdentifier: String = "serieCell"
-    let seriesCellHeight: CGFloat = 55.0
+    fileprivate let seriesCellIdentifier: String = "serieCell"
+    fileprivate let numberOfSections: Int = 1
+    fileprivate let seriesCellHeight: CGFloat = 55.0
+    fileprivate let headerFooterHeight: CGFloat = 0.01
+    fileprivate let databaseManager = DatabaseManager.sharedInstance
+    fileprivate var seriesArray = [Serie]()
 
     override func viewDidLoad() {
-        super.viewDidLoad()
         navigationController?.navigationBar.isHidden = true
+        super.viewDidLoad()
         fetchSeries()
+    }
+}
+
+extension SeriesViewController {
+    @IBAction func didPress(goNextButton: UIButton) {
+        let mainStoryboard =  UIStoryboard.init(name: "Main", bundle: nil)
+        let mnc = mainStoryboard.instantiateViewController(withIdentifier : "mainNavigationController") as! UINavigationController
+        if let mvc = mnc.viewControllers.first {
+            navigationController?.pushViewController(mvc, animated: true)
+        }
     }
 }
 
 extension SeriesViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return numberOfSections
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -34,30 +48,30 @@ extension SeriesViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: seriesCellIdentifier, for: indexPath) as! SerieCell
-        let serie = seriesArray[(indexPath as NSIndexPath).row] as! Serie
+        let serie = seriesArray[indexPath.row]
         cell.setCell(serie: serie)
-
         return cell
     }
 }
 
 extension SeriesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let Serie = seriesArray[(indexPath as NSIndexPath).row] as! Serie
-        if Serie.isSelected == true {
-            Serie.isSelected = false
+        let serie = seriesArray[indexPath.row]
+        if serie.isSelected == true {
+            serie.isSelected = false
         } else {
-            Serie.isSelected = true
+            serie.isSelected = true
         }
         let cell = tableView.cellForRow(at: indexPath) as! SerieCell
-        cell.setCell(serie: Serie)
+        cell.setCell(serie: serie)
 
-        DatabaseManager.sharedInstance.saveContext()
-        NotificationCenter.default.post(name: Notification.Name(rawValue: Notifications.updateSeriesNotification), object: nil)
+        databaseManager.saveContext()
+        //TODO:
+//        NotificationCenter.default.post(name: Notification.Name(rawValue: Notifications.updateSeriesNotification), object: nil)
 
         fetchSeries()
 
-        let sectionsIndexSet:IndexSet = IndexSet(integersIn: NSMakeRange(0, tableView.numberOfSections).toRange()!)
+        let sectionsIndexSet: IndexSet = IndexSet(integersIn: NSMakeRange(0, tableView.numberOfSections).toRange()!)
         tableView.reloadSections(sectionsIndexSet, with: .automatic)
     }
 
@@ -66,35 +80,37 @@ extension SeriesViewController: UITableViewDelegate {
     }
 
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 10.0
+        return headerFooterHeight
     }
 
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 0.0
+        return headerFooterHeight
     }
 }
 
 extension SeriesViewController {
     fileprivate func fetchSeries() {
-//        seriesArray = DatabaseManager.sharedInstance.getSeries() as! [Serie]
-//
-//        let selectedSeriesCount: Int = countSelectedSeries()
-//        if selectedSeriesCount  == 0 {
-//            tipLabel.text! = "Select series you want follow up"
-//        } else {
-//            tipLabel.text! = "You are following \(selectedSeriesCount) from \(seriesArray.count) available series"
-//        }
+        seriesArray = databaseManager.series()
+        let selectedSeriesCount = countSelectedSeries()
+        if selectedSeriesCount == 0 {
+//            goNextButton.titleLabel?.text = "Select series you want follow up"
+            seriesCountLabel.text = "Select series you want follow up"
+            goNextButton.isEnabled = false
+        } else {
+//            goNextButton.titleLabel?.text = "You are following \(selectedSeriesCount) from \(seriesArray.count) available series"
+            seriesCountLabel.text = "You are following \(selectedSeriesCount) from \(seriesArray.count) available series"
+            goNextButton.isEnabled = true
+        }
     }
 
     fileprivate func countSelectedSeries() -> Int {
-        var selectedSeriesCount: Int = 0
+        var selectedSeriesCount = 0
         for serie in seriesArray {
-            let iteratedSerie = serie as! Serie
+            let iteratedSerie = serie
             if iteratedSerie.isSelected == true {
                 selectedSeriesCount += 1
             }
         }
-
         return selectedSeriesCount
     }
 }
