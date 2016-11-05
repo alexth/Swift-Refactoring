@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AudioBroadcaster" representedClassName=".AudioBroadcaster" syncable="YES">
+        <attribute name="broadcasterID" attributeType="String" syncable="YES"/>
+        <attribute name="imageID" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="events" toMany="YES" deletionRule="Nullify" destinationEntity="Event" inverseName="audioBroadcasters" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="Event" representedClassName=".Event" syncable="YES">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="imageID" attributeType="String" syncable="YES"/>
+        <attribute name="isReminderSet" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="audioBroadcasters" toMany="YES" deletionRule="Nullify" destinationEntity="AudioBroadcaster" inverseName="events" inverseEntity="AudioBroadcaster" syncable="YES"/>
+        <relationship name="serie" maxCount="1" deletionRule="Nullify" destinationEntity="Serie" inverseName="events" inverseEntity="Serie" syncable="YES"/>
+        <relationship name="track" maxCount="1" deletionRule="Nullify" destinationEntity="Track" inverseName="events" inverseEntity="Track" syncable="YES"/>
+        <relationship name="videoBroadcasters" toMany="YES" deletionRule="Nullify" destinationEntity="VideoBroadcaster" inverseName="events" inverseEntity="VideoBroadcaster" syncable="YES"/>
+    </entity>
+    <entity name="Serie" representedClassName=".Serie" syncable="YES">
+        <attribute name="imageID" attributeType="String" syncable="YES"/>
+        <attribute name="isSelected" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="shortTitle" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="events" toMany="YES" deletionRule="Nullify" destinationEntity="Event" inverseName="serie" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="Track" representedClassName=".Track" syncable="YES">
+        <attribute name="city" attributeType="String" syncable="YES"/>
+        <attribute name="imageID" attributeType="String" syncable="YES"/>
+        <attribute name="info" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" attributeType="String" syncable="YES"/>
+        <attribute name="length" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <attribute name="trackImageID" attributeType="String" syncable="YES"/>
+        <relationship name="events" toMany="YES" deletionRule="Nullify" destinationEntity="Event" inverseName="track" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="VideoBroadcaster" representedClassName=".VideoBroadcaster" syncable="YES">
+        <attribute name="broadcasterID" attributeType="String" syncable="YES"/>
+        <attribute name="imageID" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <relationship name="events" toMany="YES" deletionRule="Nullify" destinationEntity="Event" inverseName="videoBroadcasters" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AudioBroadcaster" positionX="-261" positionY="39" width="128" height="103"/>
+        <element name="Event" positionX="-225" positionY="-207" width="128" height="163"/>
+        <element name="Serie" positionX="-227" positionY="-432" width="128" height="118"/>
+        <element name="Track" positionX="-441" positionY="-241" width="128" height="178"/>
+        <element name="VideoBroadcaster" positionX="-47" positionY="41" width="128" height="103"/>
+    </elements>
+</model>
