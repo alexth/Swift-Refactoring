@@ -10,6 +10,8 @@ import UIKit
 
 final class MainViewController: UIViewController {
     @IBOutlet weak var mainTableView: UITableView!
+    @IBOutlet weak var topBarView: UIView!
+    @IBOutlet weak var topBarHeightConstraint: NSLayoutConstraint!
 
     fileprivate var currentWeekEventsArray = [Event]()
     fileprivate var futureEventsArray = [Event]()
@@ -21,11 +23,14 @@ final class MainViewController: UIViewController {
     fileprivate let mainTableViewCellHeight: CGFloat = 100.0
     fileprivate let mainTableViewHeaderHeight: CGFloat = 30.0
     fileprivate let mainTableViewFooterHeight: CGFloat = 0.01
+    fileprivate let topBarDefaultHeight: CGFloat = 64.0
+    fileprivate let topBarExpandedHeight: CGFloat = 150.0
+    fileprivate var topBarOpened = false
 
     fileprivate var selectedEvent: Event?
 
     override func viewDidLoad() {
-        navigationController?.navigationBar.isHidden = false
+        navigationController?.navigationBar.isHidden = true
         updateEvents()
         super.viewDidLoad()
         // TODO:
@@ -56,14 +61,30 @@ final class MainViewController: UIViewController {
         let fetchedCurrentWeekEventsArray = databaseManager.currentWeekEvents()
         if fetchedCurrentWeekEventsArray.isEmpty == true {
             currentWeekEventsArray = []
-            //TODO:
             futureEventsArray = databaseManager.futureEvents(afterEvent: nil)
-//            futureEventsArray = databaseManager.events()
         } else {
             currentWeekEventsArray = fetchedCurrentWeekEventsArray 
             let lastEventOfWeek = currentWeekEventsArray.last
             futureEventsArray = databaseManager.futureEvents(afterEvent: lastEventOfWeek)
         }
+    }
+}
+
+extension MainViewController {
+    @IBAction func didPress(menuButton: UIButton) {
+        UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.33, initialSpringVelocity: 0, options: [], animations: {
+            if self.topBarOpened == false {
+                self.topBarHeightConstraint.constant = self.topBarExpandedHeight
+            } else {
+                self.topBarHeightConstraint.constant = self.topBarDefaultHeight
+            }
+            self.topBarOpened = !self.topBarOpened
+
+            self.view.layoutIfNeeded()
+        })
+    }
+
+    @IBAction func didPress(calendarButton: UIButton) {
     }
 }
 
