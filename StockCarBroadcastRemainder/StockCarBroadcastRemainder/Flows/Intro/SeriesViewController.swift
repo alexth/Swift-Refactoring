@@ -93,11 +93,9 @@ extension SeriesViewController {
         seriesArray = databaseManager.series()
         let selectedSeriesCount = countSelectedSeries()
         if selectedSeriesCount == 0 {
-//            goNextButton.titleLabel?.text = "Select series you want follow up"
             seriesCountLabel.text = "Select series you want follow up"
             goNextButton.isEnabled = false
         } else {
-//            goNextButton.titleLabel?.text = "You are following \(selectedSeriesCount) from \(seriesArray.count) available series"
             seriesCountLabel.text = "You are following \(selectedSeriesCount) from \(seriesArray.count) available series"
             goNextButton.isEnabled = true
         }
