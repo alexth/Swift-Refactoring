@@ -95,12 +95,9 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="checkboxImageView" destination="VEi-Wv-DJR" id="6fk-mr-vVp"/>
-                                            <outlet property="checkboxWidthConstraint" destination="C5j-y1-qEz" id="9io-x0-fzq"/>
                                             <outlet property="serieImageView" destination="vfv-3Z-0Dn" id="FKp-hW-JpG"/>
                                             <outlet property="serieShortTitleLabel" destination="xIo-Q4-Ejb" id="Mc5-ah-xly"/>
-                                            <outlet property="serieShortTitleLeadingConstraint" destination="AGa-29-hE3" id="R9C-Kl-Z3G"/>
                                             <outlet property="serieTitleLabel" destination="BtW-8b-4f1" id="xmQ-uU-xo9"/>
-                                            <outlet property="serieTitleLeadingConstraint" destination="yZR-HF-M68" id="0PP-yj-hlX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

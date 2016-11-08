@@ -12,6 +12,8 @@ final class MainViewController: UIViewController {
     @IBOutlet weak var mainTableView: UITableView!
     @IBOutlet weak var topBarView: UIView!
     @IBOutlet weak var topBarHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var seriesContainerView: UIView!
+    @IBOutlet weak var seriesContainerTopConstraint: NSLayoutConstraint!
 
     fileprivate var currentWeekEventsArray = [Event]()
     fileprivate var futureEventsArray = [Event]()
@@ -26,6 +28,8 @@ final class MainViewController: UIViewController {
     fileprivate let mainTableViewFooterHeight: CGFloat = 0.01
     fileprivate let topBarDefaultHeight: CGFloat = 64.0
     fileprivate let topBarExpandedHeight: CGFloat = 150.0
+    fileprivate let containerDefaultBottom: CGFloat = -220.0
+    fileprivate let containerExpandedBottom: CGFloat = 0.0
     fileprivate var topBarOpened = false
 
     fileprivate var selectedEvent: Event?
@@ -39,6 +43,7 @@ final class MainViewController: UIViewController {
 //        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Calendar", style: .Plain, target: self, action: "presentRightMenuViewController")
 //        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.selectedSeriesChanged(_:)), name: NSNotification.Name(rawValue: Notifications.updateSeriesNotification), object: nil)
 //        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.displayEvent(_:)), name: NSNotification.Name(rawValue: Notifications.displayEventData), object: nil)
+        containerViewAppearance()
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -73,11 +78,13 @@ final class MainViewController: UIViewController {
 
 extension MainViewController {
     @IBAction func didPress(menuButton: UIButton) {
-        UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.33, initialSpringVelocity: 0, options: [], animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.60, initialSpringVelocity: 0, options: [], animations: {
             if self.topBarOpened == false {
                 self.topBarHeightConstraint.constant = self.topBarExpandedHeight
+                self.seriesContainerTopConstraint.constant = self.containerExpandedBottom
             } else {
                 self.topBarHeightConstraint.constant = self.topBarDefaultHeight
+                self.seriesContainerTopConstraint.constant = self.containerDefaultBottom
             }
             self.topBarOpened = !self.topBarOpened
 
@@ -90,9 +97,6 @@ extension MainViewController {
 }
 
 extension MainViewController : UITableViewDataSource {
-
-    //MARK: - TableView DataSource
-
     func numberOfSections(in tableView: UITableView) -> Int {
         return mainTableViewSectionsCount
     }
@@ -120,9 +124,6 @@ extension MainViewController : UITableViewDataSource {
 }
 
 extension MainViewController : UITableViewDelegate {
-
-    //MARK: - TableView Delegate
-
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if (indexPath as NSIndexPath).section == currentWeekEventsSection {
             selectedEvent = currentWeekEventsArray[indexPath.row]
@@ -193,5 +194,11 @@ extension MainViewController: MainTableViewCellDelegate {
         event.isReminderSet = true
         DatabaseManager.sharedInstance.saveContext()
         cell.setReminderStatusButtonImage()
+    }
+}
+
+extension MainViewController {
+    fileprivate func containerViewAppearance() {
+        seriesContainerView.addShadow()
     }
 }
