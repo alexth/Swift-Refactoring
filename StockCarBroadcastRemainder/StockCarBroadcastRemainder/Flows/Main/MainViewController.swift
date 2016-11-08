@@ -17,6 +17,7 @@ final class MainViewController: UIViewController {
     fileprivate var futureEventsArray = [Event]()
     fileprivate let cellIdentifier: String = "mainCell"
     fileprivate let eventDetailsSegue = "toEventDetails"
+    fileprivate let seriesSubviewSegue = "seriesSubview"
     fileprivate let mainTableViewSectionsCount = 2
     fileprivate let currentWeekEventsSection = 0
     fileprivate let futureEventsSection = 1

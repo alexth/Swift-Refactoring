@@ -49,7 +49,7 @@ final class EventDetailsViewController: UIViewController {
 
     func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
         var cell: UITableViewCell?
-        switch (indexPath as NSIndexPath).row {
+        switch indexPath.row {
         case eventTitleCellRow:
             cell = tableView.dequeueReusableCell(withIdentifier: eventTitleCellIdentifier, for: indexPath) as! EventTitleTableViewCell
 //            cell.setCell
