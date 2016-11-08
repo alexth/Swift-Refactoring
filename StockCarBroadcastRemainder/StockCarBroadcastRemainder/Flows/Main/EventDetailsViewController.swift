@@ -9,10 +9,9 @@
 import UIKit
 
 final class EventDetailsViewController: UIViewController {
+    @IBOutlet weak var eventDetailTableView: UITableView!
+
     var event: Event!
-    
-    @IBOutlet weak var mainTableView: UITableView!
-    
     let eventTitleCellIdentifier: String = "eventTitleCell"
     let broadcasterCellIdentifier: String = "broadcasterCell"
     let dateCellIdentifier: String = "dateCell"
@@ -22,31 +21,32 @@ final class EventDetailsViewController: UIViewController {
     let broadcasterCellHeight = 70.0
     let dateCellHeight = 50.0
     let trackInfoCellHeight = 150.0
-    
+
     let eventTitleCellRow = 0
     let broadcasterCellRow = 1
     let dateCellRow = 2
     let trackInfoCellRow = 3
-    
+
     let tableNumberOfSectionsCount = 1
     let tableNumberOfRowsCount = 4
-    
-    //MARK: -View Lifecycle
+
+    //MARK:- View Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
         title = event.title
     }
-    
-    //MARK: - TableView DataSource
-    
+
+    //MARK:- TableView DataSource
+
     func numberOfSectionsInTableView(_ tableView: UITableView) -> Int {
         return tableNumberOfSectionsCount
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tableNumberOfRowsCount
     }
-    
+
     func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
         var cell: UITableViewCell?
         switch (indexPath as NSIndexPath).row {
@@ -62,20 +62,18 @@ final class EventDetailsViewController: UIViewController {
         default:
             print("ERROR! Wrong indexPath.row")
         }
-        
         return cell!
     }
-    
-    //MARK: - TableView Delegate
-    
+
+    //MARK:- TableView Delegate
+
     func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
-        
     }
-    
+
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 10.0
     }
-    
+
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return 0.01
     }
