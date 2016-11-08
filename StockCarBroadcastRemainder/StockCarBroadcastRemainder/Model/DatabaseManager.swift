@@ -132,7 +132,6 @@ extension DatabaseManager {
                 // TODO:
 //                newEventEntity.audioBroadcasters = [fetchAudioBroadcaster(raceDictionary["audio_broadcaster"] as! String)]
 //                newEventEntity.videoBroadcasters = [fetchVideoBroadcaster(raceDictionary["video_broadcaster"] as! String)]
-                print("000 - \(newEventEntity)")
                 saveContext()
             }
         }

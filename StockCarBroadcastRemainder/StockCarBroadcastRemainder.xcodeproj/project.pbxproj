@@ -33,6 +33,7 @@
 		E52CFB461DC3E57F0029ADBD /* StockCarBroadcastRemainder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E52CFB441DC3E57F0029ADBD /* StockCarBroadcastRemainder.xcdatamodeld */; };
 		E52CFB481DC3E5F10029ADBD /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52CFB471DC3E5F10029ADBD /* DatabaseManager.swift */; };
 		E537F9771DD1C5D90011D272 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = E537F9761DD1C5D90011D272 /* Resources */; };
+		E53859931DD2167500ADC7EE /* UIView+Effects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53859921DD2167500ADC7EE /* UIView+Effects.swift */; };
 		E564F8B81DC4C2D800B29982 /* AudioBroadcaster+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564F8AE1DC4C2D800B29982 /* AudioBroadcaster+CoreDataClass.swift */; };
 		E564F8B91DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564F8AF1DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift */; };
 		E564F8BA1DC4C2D800B29982 /* Event+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564F8B01DC4C2D800B29982 /* Event+CoreDataClass.swift */; };
@@ -106,6 +107,7 @@
 		E52CFB451DC3E57F0029ADBD /* StockCarBroadcastRemainder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StockCarBroadcastRemainder.xcdatamodel; sourceTree = "<group>"; };
 		E52CFB471DC3E5F10029ADBD /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		E537F9761DD1C5D90011D272 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		E53859921DD2167500ADC7EE /* UIView+Effects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Effects.swift"; sourceTree = "<group>"; };
 		E564F8AE1DC4C2D800B29982 /* AudioBroadcaster+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AudioBroadcaster+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E564F8AF1DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AudioBroadcaster+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E564F8B01DC4C2D800B29982 /* Event+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -204,11 +206,12 @@
 				E52CFAD61DC3E1A00029ADBD /* AppDelegate.swift */,
 				E52CFB071DC3E4850029ADBD /* Cells */,
 				E52CFAE21DC3E1A00029ADBD /* LaunchScreen.storyboard */,
+				E53859911DD215F100ADC7EE /* Extensions */,
+				E5B205481DCE658600E18210 /* Flows */,
 				E52CFB401DC3E5590029ADBD /* Model */,
 				E537F9761DD1C5D90011D272 /* Resources */,
 				E52CFB241DC3E4B90029ADBD /* Utils */,
 				E52CFB1F1DC3E4B00029ADBD /* Views */,
-				E5B205481DCE658600E18210 /* Flows */,
 				E52CFAE51DC3E1A00029ADBD /* Info.plist */,
 			);
 			path = StockCarBroadcastRemainder;
@@ -294,6 +297,14 @@
 				E564F8B71DC4C2D800B29982 /* Track+CoreDataProperties.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		E53859911DD215F100ADC7EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E53859921DD2167500ADC7EE /* UIView+Effects.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E5B205481DCE658600E18210 /* Flows */ = {
@@ -446,6 +457,7 @@
 				E52CFB231DC3E4B00029ADBD /* TableViewLabelHeaderView.xib in Resources */,
 				E52CFAE41DC3E1A00029ADBD /* LaunchScreen.storyboard in Resources */,
 				E5B2056A1DCE726500E18210 /* Main.storyboard in Resources */,
+				E52CFB3B1DC3E4C40029ADBD /* Events.json in Resources */,
 				E5B2055F1DCE672600E18210 /* Series.storyboard in Resources */,
 				E537F9771DD1C5D90011D272 /* Resources in Resources */,
 			);
@@ -622,6 +634,7 @@
 				E564F8BE1DC4C2D800B29982 /* Serie+CoreDataClass.swift in Sources */,
 				E564F8B91DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift in Sources */,
 				E52CFB121DC3E4850029ADBD /* MainTableVewCell.swift in Sources */,
+				E53859931DD2167500ADC7EE /* UIView+Effects.swift in Sources */,
 				E5B205651DCE724200E18210 /* EventDetailsViewController.swift in Sources */,
 				E52CFB111DC3E4850029ADBD /* ImageTableViewCell.swift in Sources */,
 				E52CFB0F1DC3E4850029ADBD /* BroadcastersTableViewCell.swift in Sources */,
