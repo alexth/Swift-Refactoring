@@ -11,7 +11,6 @@
 		8D7657AEF73D7D1156BD8E65 /* Pods_StockCarBroadcastRemainderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46B00BE8F21CF4386CBDB05 /* Pods_StockCarBroadcastRemainderUITests.framework */; };
 		A24FAE68A5B37ABC766E5212 /* Pods_StockCarBroadcastRemainder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5A4513733777F72DFB8FF2 /* Pods_StockCarBroadcastRemainder.framework */; };
 		E52CFAD71DC3E1A00029ADBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52CFAD61DC3E1A00029ADBD /* AppDelegate.swift */; };
-		E52CFAE11DC3E1A00029ADBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52CFAE01DC3E1A00029ADBD /* Assets.xcassets */; };
 		E52CFAE41DC3E1A00029ADBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52CFAE21DC3E1A00029ADBD /* LaunchScreen.storyboard */; };
 		E52CFAEF1DC3E1A00029ADBD /* StockCarBroadcastRemainderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52CFAEE1DC3E1A00029ADBD /* StockCarBroadcastRemainderTests.swift */; };
 		E52CFAFA1DC3E1A00029ADBD /* StockCarBroadcastRemainderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52CFAF91DC3E1A00029ADBD /* StockCarBroadcastRemainderUITests.swift */; };
@@ -31,13 +30,9 @@
 		E52CFB301DC3E4B90029ADBD /* Painter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52CFB291DC3E4B90029ADBD /* Painter.swift */; };
 		E52CFB311DC3E4B90029ADBD /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52CFB2A1DC3E4B90029ADBD /* UIColor+Utils.swift */; };
 		E52CFB321DC3E4B90029ADBD /* UIImage+Coloring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52CFB2B1DC3E4B90029ADBD /* UIImage+Coloring.swift */; };
-		E52CFB391DC3E4C40029ADBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52CFB341DC3E4C40029ADBD /* Assets.xcassets */; };
-		E52CFB3A1DC3E4C40029ADBD /* Broadcasters.json in Resources */ = {isa = PBXBuildFile; fileRef = E52CFB351DC3E4C40029ADBD /* Broadcasters.json */; };
-		E52CFB3B1DC3E4C40029ADBD /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = E52CFB361DC3E4C40029ADBD /* Events.json */; };
-		E52CFB3C1DC3E4C40029ADBD /* Series.json in Resources */ = {isa = PBXBuildFile; fileRef = E52CFB371DC3E4C40029ADBD /* Series.json */; };
-		E52CFB3D1DC3E4C40029ADBD /* Tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = E52CFB381DC3E4C40029ADBD /* Tracks.json */; };
 		E52CFB461DC3E57F0029ADBD /* StockCarBroadcastRemainder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E52CFB441DC3E57F0029ADBD /* StockCarBroadcastRemainder.xcdatamodeld */; };
 		E52CFB481DC3E5F10029ADBD /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52CFB471DC3E5F10029ADBD /* DatabaseManager.swift */; };
+		E537F9771DD1C5D90011D272 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = E537F9761DD1C5D90011D272 /* Resources */; };
 		E564F8B81DC4C2D800B29982 /* AudioBroadcaster+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564F8AE1DC4C2D800B29982 /* AudioBroadcaster+CoreDataClass.swift */; };
 		E564F8B91DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564F8AF1DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift */; };
 		E564F8BA1DC4C2D800B29982 /* Event+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E564F8B01DC4C2D800B29982 /* Event+CoreDataClass.swift */; };
@@ -84,7 +79,6 @@
 		DE5A4513733777F72DFB8FF2 /* Pods_StockCarBroadcastRemainder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockCarBroadcastRemainder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52CFAD31DC3E1A00029ADBD /* StockCarBroadcastRemainder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockCarBroadcastRemainder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52CFAD61DC3E1A00029ADBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E52CFAE01DC3E1A00029ADBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52CFAE31DC3E1A00029ADBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E52CFAE51DC3E1A00029ADBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52CFAEA1DC3E1A00029ADBD /* StockCarBroadcastRemainderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockCarBroadcastRemainderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,13 +103,9 @@
 		E52CFB291DC3E4B90029ADBD /* Painter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Painter.swift; sourceTree = "<group>"; };
 		E52CFB2A1DC3E4B90029ADBD /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
 		E52CFB2B1DC3E4B90029ADBD /* UIImage+Coloring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Coloring.swift"; sourceTree = "<group>"; };
-		E52CFB341DC3E4C40029ADBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E52CFB351DC3E4C40029ADBD /* Broadcasters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Broadcasters.json; sourceTree = "<group>"; };
-		E52CFB361DC3E4C40029ADBD /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
-		E52CFB371DC3E4C40029ADBD /* Series.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Series.json; sourceTree = "<group>"; };
-		E52CFB381DC3E4C40029ADBD /* Tracks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tracks.json; sourceTree = "<group>"; };
 		E52CFB451DC3E57F0029ADBD /* StockCarBroadcastRemainder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StockCarBroadcastRemainder.xcdatamodel; sourceTree = "<group>"; };
 		E52CFB471DC3E5F10029ADBD /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		E537F9761DD1C5D90011D272 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		E564F8AE1DC4C2D800B29982 /* AudioBroadcaster+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AudioBroadcaster+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E564F8AF1DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AudioBroadcaster+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E564F8B01DC4C2D800B29982 /* Event+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Event+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -213,10 +203,9 @@
 			children = (
 				E52CFAD61DC3E1A00029ADBD /* AppDelegate.swift */,
 				E52CFB071DC3E4850029ADBD /* Cells */,
-				E52CFAE01DC3E1A00029ADBD /* Assets.xcassets */,
 				E52CFAE21DC3E1A00029ADBD /* LaunchScreen.storyboard */,
 				E52CFB401DC3E5590029ADBD /* Model */,
-				E52CFB331DC3E4C40029ADBD /* Resources */,
+				E537F9761DD1C5D90011D272 /* Resources */,
 				E52CFB241DC3E4B90029ADBD /* Utils */,
 				E52CFB1F1DC3E4B00029ADBD /* Views */,
 				E5B205481DCE658600E18210 /* Flows */,
@@ -278,18 +267,6 @@
 				E52CFB2B1DC3E4B90029ADBD /* UIImage+Coloring.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		E52CFB331DC3E4C40029ADBD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E52CFB341DC3E4C40029ADBD /* Assets.xcassets */,
-				E52CFB351DC3E4C40029ADBD /* Broadcasters.json */,
-				E52CFB361DC3E4C40029ADBD /* Events.json */,
-				E52CFB371DC3E4C40029ADBD /* Series.json */,
-				E52CFB381DC3E4C40029ADBD /* Tracks.json */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		E52CFB401DC3E5590029ADBD /* Model */ = {
@@ -468,14 +445,9 @@
 			files = (
 				E52CFB231DC3E4B00029ADBD /* TableViewLabelHeaderView.xib in Resources */,
 				E52CFAE41DC3E1A00029ADBD /* LaunchScreen.storyboard in Resources */,
-				E52CFB3A1DC3E4C40029ADBD /* Broadcasters.json in Resources */,
 				E5B2056A1DCE726500E18210 /* Main.storyboard in Resources */,
-				E52CFAE11DC3E1A00029ADBD /* Assets.xcassets in Resources */,
-				E52CFB3B1DC3E4C40029ADBD /* Events.json in Resources */,
 				E5B2055F1DCE672600E18210 /* Series.storyboard in Resources */,
-				E52CFB3C1DC3E4C40029ADBD /* Series.json in Resources */,
-				E52CFB391DC3E4C40029ADBD /* Assets.xcassets in Resources */,
-				E52CFB3D1DC3E4C40029ADBD /* Tracks.json in Resources */,
+				E537F9771DD1C5D90011D272 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
