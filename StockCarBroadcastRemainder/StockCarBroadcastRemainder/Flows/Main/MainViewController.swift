@@ -10,6 +10,8 @@ import UIKit
 
 final class MainViewController: UIViewController {
     @IBOutlet weak var mainTableView: UITableView!
+    @IBOutlet weak var seriesButton: DynamicButton!
+    @IBOutlet weak var calendarButton: DynamicButton!
     @IBOutlet weak var topBarView: UIView!
     @IBOutlet weak var topBarHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var seriesContainerView: UIView!
@@ -36,9 +38,11 @@ final class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         navigationController?.navigationBar.isHidden = true
+        seriesButton.style = .caretDown
         updateEvents()
         super.viewDidLoad()
         // TODO:
+        calendarButton.isHidden = true
 //        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Series", style: .plain, target: self, action: "presentLeftMenuViewController")
 //        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Calendar", style: .Plain, target: self, action: "presentRightMenuViewController")
 //        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.selectedSeriesChanged(_:)), name: NSNotification.Name(rawValue: Notifications.updateSeriesNotification), object: nil)
@@ -82,9 +86,11 @@ extension MainViewController {
             if self.topBarOpened == false {
                 self.topBarHeightConstraint.constant = self.topBarExpandedHeight
                 self.seriesContainerTopConstraint.constant = self.containerExpandedBottom
+                self.seriesButton.style = .caretUp
             } else {
                 self.topBarHeightConstraint.constant = self.topBarDefaultHeight
                 self.seriesContainerTopConstraint.constant = self.containerDefaultBottom
+                self.seriesButton.style = .caretDown
             }
             self.topBarOpened = !self.topBarOpened
 
