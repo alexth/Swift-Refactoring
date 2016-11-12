@@ -38,9 +38,11 @@ final class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         navigationController?.navigationBar.isHidden = true
-        seriesButton.style = .caretDown
+//        seriesButton.style = .caretDown
         updateEvents()
         super.viewDidLoad()
+        seriesButton.style = .caretDown
+
         // TODO:
         calendarButton.isHidden = true
 //        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Series", style: .plain, target: self, action: "presentLeftMenuViewController")
