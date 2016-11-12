@@ -24,24 +24,44 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F6r-MR-hcj">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxP-8G-km6">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxP-8G-km6" customClass="DynamicButton" customModule="StockCarBroadcastRemainder" customModuleProvider="target">
                                         <rect key="frame" x="8" y="27" width="46" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="fxO-FV-UMG"/>
                                             <constraint firstAttribute="width" constant="46" id="tAu-sU-Edf"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="highlightStokeColor">
+                                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="didPressWithMenuButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HgL-Am-C92"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hk7-nw-oTH">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hk7-nw-oTH" customClass="DynamicButton" customModule="StockCarBroadcastRemainder" customModuleProvider="target">
                                         <rect key="frame" x="321" y="27" width="46" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="46" id="q8y-I5-bbT"/>
                                             <constraint firstAttribute="height" constant="30" id="sIx-Uj-iPC"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="highlightStokeColor">
+                                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -168,7 +188,9 @@
                     <navigationItem key="navigationItem" id="Eff-uF-IyY"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="calendarButton" destination="hk7-nw-oTH" id="SrW-G9-GXn"/>
                         <outlet property="mainTableView" destination="xaA-qe-zcj" id="h8Z-04-TUP"/>
+                        <outlet property="seriesButton" destination="XxP-8G-km6" id="Op2-h0-igz"/>
                         <outlet property="seriesContainerTopConstraint" destination="vfo-Nq-gcb" id="e59-uv-9zY"/>
                         <outlet property="seriesContainerView" destination="8mx-t2-YRo" id="mga-qe-zPg"/>
                         <outlet property="topBarHeightConstraint" destination="Pzv-ZA-kIw" id="E8y-Wv-IIW"/>
@@ -261,6 +283,10 @@
         <scene sceneID="hqd-uw-Bh3">
             <objects>
                 <viewController id="O0g-rJ-reR" customClass="SeriesViewController" customModule="StockCarBroadcastRemainder" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y7G-Sh-nye"/>
+                        <viewControllerLayoutGuide type="bottom" id="o56-C2-jIV"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Eem-af-gUK">
                         <rect key="frame" x="0.0" y="0.0" width="275" height="200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
