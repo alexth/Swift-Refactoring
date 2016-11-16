@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DynamicButton
 
 final class MainViewController: UIViewController {
     @IBOutlet weak var mainTableView: UITableView!
@@ -41,7 +42,7 @@ final class MainViewController: UIViewController {
 //        seriesButton.style = .caretDown
         updateEvents()
         super.viewDidLoad()
-        seriesButton.style = .caretDown
+        seriesButton.style = DynamicButtonStyle.caretDown
 
         // TODO:
         calendarButton.isHidden = true
@@ -88,14 +89,13 @@ extension MainViewController {
             if self.topBarOpened == false {
                 self.topBarHeightConstraint.constant = self.topBarExpandedHeight
                 self.seriesContainerTopConstraint.constant = self.containerExpandedBottom
-                self.seriesButton.style = .caretUp
+                self.seriesButton.style = DynamicButtonStyle.caretUp
             } else {
                 self.topBarHeightConstraint.constant = self.topBarDefaultHeight
                 self.seriesContainerTopConstraint.constant = self.containerDefaultBottom
-                self.seriesButton.style = .caretDown
+                self.seriesButton.style = DynamicButtonStyle.caretDown
             }
             self.topBarOpened = !self.topBarOpened
-
             self.view.layoutIfNeeded()
         })
     }

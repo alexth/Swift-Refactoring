@@ -1,1549 +1,964 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>027A47067ED4ADCAB54D696229191CA9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3763E57B9C4C7675081928B2DB97082C</string>
-				<string>5D55E69589E83F91929D8FAF3F157F93</string>
-				<string>DBC82F2B2235C4C448A38F32666A0DC5</string>
-				<string>0BFA6D3ACC943E99078DF394E3C026C1</string>
-				<string>7CD228E8C9755CF4872C782EB750C057</string>
-				<string>BF935E8DBD2F8C7A1B30FE8C1818AAC3</string>
-				<string>426A723E8E54E7214672D5D8F1B39E80</string>
-				<string>87128A1F9D0A28FB84ECC05D97833F65</string>
-				<string>E6BC88649E50AE2E00D10156BD8B483F</string>
-				<string>A2AD82974274789B2D3A05F1AD44DC6A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-StockCarBroadcastRemainderTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-StockCarBroadcastRemainderTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06304A5C96A884BCF5F8BB080693D851</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0AAFA2A8D127EAD9DCA19996475E3050</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BFA6D3ACC943E99078DF394E3C026C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B97B267CEBD086BB6E8F47442274763</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28AF5356609EB329476E1F07BB3AEE6F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F48D35563D34E8C1B4853382F96B26F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>28F5A1775A3ED98E50644281A551724F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>AE9439C22469D35336242DD983DB5C5F</string>
-				<string>42287DDF97330524BA3EF220F0276DA6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>30FC4BD6D7F5A6F31113448BBD87851C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4D40FE2024AA2C90777E3879471C7F29</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>331FE3669EDFE582CFE3638D5748A605</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_StockCarBroadcastRemainderTests.framework</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3763E57B9C4C7675081928B2DB97082C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3875CA3EA4E9D71ABC501F51F3E0AF04</key>
-		<dict>
-			<key>fileRef</key>
-			<string>87128A1F9D0A28FB84ECC05D97833F65</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>406A96CB7EB68C748939AA68561A279F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>420167F843751218DECD7B8958CAC1AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42287DDF97330524BA3EF220F0276DA6</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_RELEASE=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>426A723E8E54E7214672D5D8F1B39E80</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>468ED908E5B496B89382C99809B0007B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DFD9434116E100FCCBB06E8E0A0AC826</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4C25BFC210F0E657EDA07CE488037480</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C5CAD29FC484BE1DDD37F10E3CA5510F</string>
-				<string>52E6150EFFC0CD0463DF87ABC80E7DEE</string>
-				<string>6CC4A8D04AFD2F3ED3F548A5A1931204</string>
-				<string>EED1325E4C0C941D13D94BC73E9AF460</string>
-				<string>1B97B267CEBD086BB6E8F47442274763</string>
-				<string>627017F373EA24C972CEC5E2D08471F0</string>
-				<string>82C38AF83291141685CD7E4B07A376B0</string>
-				<string>8F48D35563D34E8C1B4853382F96B26F</string>
-				<string>CE941E90B87C11B4D496C3C8EB292ABE</string>
-				<string>E7FA5FE415988F33011BAFB640CE5924</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-StockCarBroadcastRemainder</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-StockCarBroadcastRemainder</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4D40FE2024AA2C90777E3879471C7F29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5091E79B828AE096EE422B5074465D6E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>28AF5356609EB329476E1F07BB3AEE6F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>52E6150EFFC0CD0463DF87ABC80E7DEE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54DC0E2CA484284A123DDA64914ABF0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B3CFE15A05B07DDB74979124E03C3C58</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>55BC4B4547525CDCD19B4BC9B2F88B3F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>406A96CB7EB68C748939AA68561A279F</string>
-				<string>E9EE2BD653A081548A1F9F028E0D94C2</string>
-				<string>BE0349852516CC4345BDE0B3C53DDA9A</string>
-				<string>420167F843751218DECD7B8958CAC1AD</string>
-				<string>B3CFE15A05B07DDB74979124E03C3C58</string>
-				<string>28F5A1775A3ED98E50644281A551724F</string>
-				<string>06304A5C96A884BCF5F8BB080693D851</string>
-				<string>9A5FD19DB85D11B1AF4EF449729CDEC5</string>
-				<string>0AAFA2A8D127EAD9DCA19996475E3050</string>
-				<string>A4B511D424ECE39BC6898C6658C30F47</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-StockCarBroadcastRemainderUITests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-StockCarBroadcastRemainderUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>590D133AA3FBD87270D88D0DF5A33DD4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1B97B267CEBD086BB6E8F47442274763</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5927AFD8FA88588CE67E4330408C860E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>590D133AA3FBD87270D88D0DF5A33DD4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5D55E69589E83F91929D8FAF3F157F93</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>627017F373EA24C972CEC5E2D08471F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6CC4A8D04AFD2F3ED3F548A5A1931204</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75EAEFE2B467585B8732306345676542</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7CB2DE517ABF702928AD3E8112E2352D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B9A8EDD229ACD4E1D5CBC91C86D9234B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5927AFD8FA88588CE67E4330408C860E</string>
-				<string>A22A05F47A34DA0ECE8794795390D5BE</string>
-				<string>5091E79B828AE096EE422B5074465D6E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-StockCarBroadcastRemainder</string>
-			<key>productName</key>
-			<string>Pods-StockCarBroadcastRemainder</string>
-			<key>productReference</key>
-			<string>8B76A34D10BFABA260987F4F9A1EE0B0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>7CD228E8C9755CF4872C782EB750C057</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7CF337D18260866BD09B7E76518BCA33</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>83DA5B531717AFFD9654FE4B39E16F21</string>
-				<string>B98B08CF9096670F3CB949414CB608D8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>EC658FDE2D784085FA639771C2AD5ED9</string>
-				<string>A4057132E1E96C91248B30CF49E42D41</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>82C38AF83291141685CD7E4B07A376B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>83DA5B531717AFFD9654FE4B39E16F21</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E6BC88649E50AE2E00D10156BD8B483F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainderTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainderTests/Pods-StockCarBroadcastRemainderTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_StockCarBroadcastRemainderTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>87128A1F9D0A28FB84ECC05D97833F65</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B76A34D10BFABA260987F4F9A1EE0B0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_StockCarBroadcastRemainder.framework</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8F48D35563D34E8C1B4853382F96B26F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>text.script.ruby</string>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>9A5FD19DB85D11B1AF4EF449729CDEC5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A22A05F47A34DA0ECE8794795390D5BE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EFEB1283F02D64ADFDE9A503C8E37524</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A2AD82974274789B2D3A05F1AD44DC6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4057132E1E96C91248B30CF49E42D41</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4C25BFC210F0E657EDA07CE488037480</string>
-				<string>027A47067ED4ADCAB54D696229191CA9</string>
-				<string>55BC4B4547525CDCD19B4BC9B2F88B3F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4B511D424ECE39BC6898C6658C30F47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A591F45D668A0599670B5885A482D354</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CE941E90B87C11B4D496C3C8EB292ABE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainder/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainder/Pods-StockCarBroadcastRemainder.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_StockCarBroadcastRemainder</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AB036B4ED97E0A48AAF6E455336693A0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EB25E3B16473BE1F285977673A7981E7</string>
-				<string>F2446BBDF23BA663D6CC1DF395D544FF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>AB7BB7B46C821133656D18E2483DE371</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_StockCarBroadcastRemainderUITests.framework</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AE9439C22469D35336242DD983DB5C5F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>POD_CONFIGURATION_DEBUG=1</string>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B3CFE15A05B07DDB74979124E03C3C58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B98B08CF9096670F3CB949414CB608D8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A2AD82974274789B2D3A05F1AD44DC6A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainderTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainderTests/Pods-StockCarBroadcastRemainderTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_StockCarBroadcastRemainderTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B9A8EDD229ACD4E1D5CBC91C86D9234B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A591F45D668A0599670B5885A482D354</string>
-				<string>C0FC26556822A6A53F8890C397B65424</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BE0349852516CC4345BDE0B3C53DDA9A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF935E8DBD2F8C7A1B30FE8C1818AAC3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C05A8BF4D4810E39C17A3E3F401A25FD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>54DC0E2CA484284A123DDA64914ABF0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C0FC26556822A6A53F8890C397B65424</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E7FA5FE415988F33011BAFB640CE5924</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainder/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainder/Pods-StockCarBroadcastRemainder.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_StockCarBroadcastRemainder</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C1D10793CB9DEDA0FBF74986AA83D9B2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>75EAEFE2B467585B8732306345676542</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C5CAD29FC484BE1DDD37F10E3CA5510F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE941E90B87C11B4D496C3C8EB292ABE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>EC658FDE2D784085FA639771C2AD5ED9</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>7CB2DE517ABF702928AD3E8112E2352D</string>
-				<string>EAA3465005F0AC96AFE17BE77D88DA99</string>
-				<string>E78E9D5362D72C9C85FBC933262222A2</string>
-			</array>
-		</dict>
-		<key>DBC82F2B2235C4C448A38F32666A0DC5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFD9434116E100FCCBB06E8E0A0AC826</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9A5FD19DB85D11B1AF4EF449729CDEC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E6BC88649E50AE2E00D10156BD8B483F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E78E9D5362D72C9C85FBC933262222A2</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>AB036B4ED97E0A48AAF6E455336693A0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C05A8BF4D4810E39C17A3E3F401A25FD</string>
-				<string>30FC4BD6D7F5A6F31113448BBD87851C</string>
-				<string>468ED908E5B496B89382C99809B0007B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-StockCarBroadcastRemainderUITests</string>
-			<key>productName</key>
-			<string>Pods-StockCarBroadcastRemainderUITests</string>
-			<key>productReference</key>
-			<string>AB7BB7B46C821133656D18E2483DE371</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>E7FA5FE415988F33011BAFB640CE5924</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9EE2BD653A081548A1F9F028E0D94C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainderUITests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EAA3465005F0AC96AFE17BE77D88DA99</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7CF337D18260866BD09B7E76518BCA33</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EDE529B5BBB510A64F74507F2104E2D8</string>
-				<string>C1D10793CB9DEDA0FBF74986AA83D9B2</string>
-				<string>F861D9C7E5B550A3AA3EA5EDA2A149C7</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-StockCarBroadcastRemainderTests</string>
-			<key>productName</key>
-			<string>Pods-StockCarBroadcastRemainderTests</string>
-			<key>productReference</key>
-			<string>331FE3669EDFE582CFE3638D5748A605</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>EB25E3B16473BE1F285977673A7981E7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0AAFA2A8D127EAD9DCA19996475E3050</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainderUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainderUITests/Pods-StockCarBroadcastRemainderUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_StockCarBroadcastRemainderUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EC658FDE2D784085FA639771C2AD5ED9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8B76A34D10BFABA260987F4F9A1EE0B0</string>
-				<string>331FE3669EDFE582CFE3638D5748A605</string>
-				<string>AB7BB7B46C821133656D18E2483DE371</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDE529B5BBB510A64F74507F2104E2D8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F19B8495156840E38E7DA373E9C93511</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EED1325E4C0C941D13D94BC73E9AF460</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-StockCarBroadcastRemainder-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFEB1283F02D64ADFDE9A503C8E37524</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F19B8495156840E38E7DA373E9C93511</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7CD228E8C9755CF4872C782EB750C057</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F2446BBDF23BA663D6CC1DF395D544FF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A4B511D424ECE39BC6898C6658C30F47</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainderUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-StockCarBroadcastRemainderUITests/Pods-StockCarBroadcastRemainderUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_StockCarBroadcastRemainderUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F861D9C7E5B550A3AA3EA5EDA2A149C7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3875CA3EA4E9D71ABC501F51F3E0AF04</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DA0B7DDADC2A3860AFFE5052FEC99F /* DynamicButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 693D9B546C12A832A476A0DF28294581 /* DynamicButton-dummy.m */; };
+		085001B0C4983085045E8DCD71FFCE6C /* DynamicButtonStyleArrowDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5657750FDA765D22D32726153EAEAF9 /* DynamicButtonStyleArrowDown.swift */; };
+		0A472E63CF2A259EDDC473BE03174CBD /* DynamicButtonStyleVerticalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D6CB5E6A53F9BE080D638CEE3212F5 /* DynamicButtonStyleVerticalLine.swift */; };
+		1469C8F5CBE1840B72789D3C0E217F1C /* DynamicButtonStyleRewind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89F1F359DD0BADE735F58AFD4AAAF6B /* DynamicButtonStyleRewind.swift */; };
+		1C403B5EB32D705543C7CCDEE4B4EC59 /* DynamicButtonStyleDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CA36B49E94C5646EC1A7BA2A9EDF42 /* DynamicButtonStyleDownload.swift */; };
+		1E8042F4596CC7206AA529B8DC271CD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		276F47CC7EC67090E110DBDE7156AA72 /* DynamicButtonStyleCaretUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEBCFB2D1750A5EC8CE222972C51CA3 /* DynamicButtonStyleCaretUp.swift */; };
+		2F632A4D1ADD5136B02A32C056154E95 /* DynamicButtonStylePause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D93C677D3BDA750924A9987E66D28B /* DynamicButtonStylePause.swift */; };
+		3C23CEF4673BC25D4182C31836C7779B /* DynamicButtonStyleStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9713114B3D6ABED6B86E91FF4806B6 /* DynamicButtonStyleStop.swift */; };
+		4313B742D8BF3FBF8E51AA05295534C4 /* DynamicButtonStyleHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3027AC52E0E228790CB0AE45BAAD686E /* DynamicButtonStyleHamburger.swift */; };
+		462CAE70A0281A56EDF8A4B5F93ABD66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		48553CDFE254F2B62EB44F4230AB032D /* Pods-StockCarBroadcastRemainderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD228E8C9755CF4872C782EB750C057 /* Pods-StockCarBroadcastRemainderTests-dummy.m */; };
+		4AAA32AE79331482048A2BF5164E237D /* DynamicButtonStyleCaretRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353CA689684B696D5DEC29970E0C174F /* DynamicButtonStyleCaretRight.swift */; };
+		67FB785B0C121CA9DAB666EB522C0518 /* Pods-StockCarBroadcastRemainderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5FD19DB85D11B1AF4EF449729CDEC5 /* Pods-StockCarBroadcastRemainderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F16EA77E2BECC0DF9C36696191405EA /* DynamicButtonStyleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF762714EFC592C5C9693DBE82460F26 /* DynamicButtonStyleClose.swift */; };
+		7280A91C6C7508B6D82C755F40772C17 /* DynamicButtonStyleArrowLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A8EFE2F5C1A9CC3783D8ADB35055E /* DynamicButtonStyleArrowLeft.swift */; };
+		85DB37167784FCC49672C51155C5A321 /* DynamicButtonStyleCirclePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167B2F90B1D58E265D785F309C850E75 /* DynamicButtonStyleCirclePlus.swift */; };
+		8A2B52FCC4F5C813B70A94BFAE7D24D5 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B11577E627BE56B96699C192EB48DA /* DynamicButton.swift */; };
+		8AB1328727F84ECED2E66B4138186348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8BDA7C4F0B42C3635EB49DB292AD7515 /* DynamicButtonStyleHorizontalMoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89A7A8BC25E517D639AFC8817AF4D1 /* DynamicButtonStyleHorizontalMoreOptions.swift */; };
+		8E376EA05A0993D8FCFD8D21A39C293A /* Pods-StockCarBroadcastRemainderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFE15A05B07DDB74979124E03C3C58 /* Pods-StockCarBroadcastRemainderUITests-dummy.m */; };
+		9588AA025059E33574CAC925D7594813 /* DynamicButtonStyleReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327C406A49176D61D92ADD9F103B036C /* DynamicButtonStyleReload.swift */; };
+		95D78044963340B7CE31E82F96DD9C99 /* DynamicButtonStyleCaretDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16169DE1585115901A9E729723A51656 /* DynamicButtonStyleCaretDown.swift */; };
+		999DD8BEF7680C24E947FC3DA9D83B53 /* DynamicButtonStylePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01E8CDE4F1F4537A0FFD6EB1CF161DA /* DynamicButtonStylePlay.swift */; };
+		9A72870177D8CA7841AF6F9BB8C54E5F /* DynamicButtonStyleNone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81BBA6FF7E69901480A4CEC9325D7F0 /* DynamicButtonStyleNone.swift */; };
+		9AC0FAB323E6EFA9E4F1C9F4E9A07A28 /* PathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F8BDE8DBFD23077F96B6A903EED9DB /* PathHelper.swift */; };
+		9B46F6A57B8E17B8B07E1944C4D01946 /* DynamicButtonStylePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642556A08B74DF5F67FF2F1E44D49C8 /* DynamicButtonStylePlus.swift */; };
+		AD102D0B847AC67C973F7A8D59B82DE0 /* DynamicButtonStyleFastForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC3ECD33100269520F017327CB5029 /* DynamicButtonStyleFastForward.swift */; };
+		B51FEC4EBB8A679184DCA38ED5FD2301 /* DynamicButtonStyleCaretLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29CB5CF381AF68FC85CECBEBCF53789 /* DynamicButtonStyleCaretLeft.swift */; };
+		BC90D58697892020E2F2F2D69DB9761E /* DynamicButtonStyleArrowUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F967A718006F5F413E24BF8479EBDE /* DynamicButtonStyleArrowUp.swift */; };
+		C1F86D58603A88EF0D11BE51148BBE96 /* DynamicButtonStyleVerticalMoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE1C1CE6E689674C43ECC4ACF38B6D /* DynamicButtonStyleVerticalMoreOptions.swift */; };
+		C78A65154E32610D313207E258256D15 /* DynamicButtonStyleCircleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931E4C0090902C4D26A6856FB93BA62 /* DynamicButtonStyleCircleClose.swift */; };
+		D48C7580E4BA1D9883BD8B8DA166999D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D8D6C0DDA65FC12591C67851F7585F95 /* DynamicButtonStyleCheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F085B8A3E5E1AFA1A783EC35E89C90A /* DynamicButtonStyleCheckMark.swift */; };
+		DE5A68220135A9592056B55DF474E2DC /* DynamicButtonStyleHorizontalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AFC8AAE4D2DDFD650A572335066198 /* DynamicButtonStyleHorizontalLine.swift */; };
+		E51676DF4BB97DFBBFF5E685BA131B9B /* DynamicButtonStyleDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215ADA789AE7A32319D39A4A9B8755EF /* DynamicButtonStyleDot.swift */; };
+		E9EF40D4204A4884FE38020080FF2D51 /* DynamicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7534915C46BACBD4216817B092A09DB5 /* DynamicButtonStyle.swift */; };
+		F3726F74C43DB3BE4A51AD3F480D29DC /* DynamicButtonStyleArrowRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA38483C9757A7D7CA01D7437E9863 /* DynamicButtonStyleArrowRight.swift */; };
+		F64CC1E1BBEEAE01A5E178D5D8010D4C /* Pods-StockCarBroadcastRemainderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87128A1F9D0A28FB84ECC05D97833F65 /* Pods-StockCarBroadcastRemainderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F837F08BCB91E0ABA7D24E08FC6C8B61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F9CD505D08653F5654F5F7CAAFCDE4AF /* Pods-StockCarBroadcastRemainder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F48D35563D34E8C1B4853382F96B26F /* Pods-StockCarBroadcastRemainder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9DA3471F533E8125BE9DF93E9225D2 /* DynamicButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0A11572CC359CD33354F1A70AF77F6 /* DynamicButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7061641DD356FEDC8E668ABFD65320 /* Pods-StockCarBroadcastRemainder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B97B267CEBD086BB6E8F47442274763 /* Pods-StockCarBroadcastRemainder-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87D5921D51BF0A8BE9168869AFB8121F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE24ACA00B7B35A5EB9168B684E5317;
+			remoteInfo = DynamicButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06304A5C96A884BCF5F8BB080693D851 /* Pods-StockCarBroadcastRemainderUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StockCarBroadcastRemainderUITests-resources.sh"; sourceTree = "<group>"; };
+		0AAFA2A8D127EAD9DCA19996475E3050 /* Pods-StockCarBroadcastRemainderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockCarBroadcastRemainderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BFA6D3ACC943E99078DF394E3C026C1 /* Pods-StockCarBroadcastRemainderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockCarBroadcastRemainderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		16169DE1585115901A9E729723A51656 /* DynamicButtonStyleCaretDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretDown.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretDown.swift; sourceTree = "<group>"; };
+		167B2F90B1D58E265D785F309C850E75 /* DynamicButtonStyleCirclePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCirclePlus.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCirclePlus.swift; sourceTree = "<group>"; };
+		1B97B267CEBD086BB6E8F47442274763 /* Pods-StockCarBroadcastRemainder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StockCarBroadcastRemainder-dummy.m"; sourceTree = "<group>"; };
+		1F085B8A3E5E1AFA1A783EC35E89C90A /* DynamicButtonStyleCheckMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCheckMark.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCheckMark.swift; sourceTree = "<group>"; };
+		215ADA789AE7A32319D39A4A9B8755EF /* DynamicButtonStyleDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDot.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleDot.swift; sourceTree = "<group>"; };
+		22AFC8AAE4D2DDFD650A572335066198 /* DynamicButtonStyleHorizontalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHorizontalLine.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHorizontalLine.swift; sourceTree = "<group>"; };
+		232A814F8F0C1D22E5896681CE8BD0F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F8BDE8DBFD23077F96B6A903EED9DB /* PathHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathHelper.swift; path = Sources/PathHelper.swift; sourceTree = "<group>"; };
+		28F5A1775A3ED98E50644281A551724F /* Pods-StockCarBroadcastRemainderUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StockCarBroadcastRemainderUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2B287678FDF7B052F410E39D2DC9AC6F /* Pods_StockCarBroadcastRemainderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StockCarBroadcastRemainderTests.framework; path = "Pods-StockCarBroadcastRemainderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C89A7A8BC25E517D639AFC8817AF4D1 /* DynamicButtonStyleHorizontalMoreOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHorizontalMoreOptions.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHorizontalMoreOptions.swift; sourceTree = "<group>"; };
+		2F06FD7059035DAE3B301900B103E3CD /* Pods_StockCarBroadcastRemainder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StockCarBroadcastRemainder.framework; path = "Pods-StockCarBroadcastRemainder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3027AC52E0E228790CB0AE45BAAD686E /* DynamicButtonStyleHamburger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHamburger.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHamburger.swift; sourceTree = "<group>"; };
+		327C406A49176D61D92ADD9F103B036C /* DynamicButtonStyleReload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleReload.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleReload.swift; sourceTree = "<group>"; };
+		353CA689684B696D5DEC29970E0C174F /* DynamicButtonStyleCaretRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretRight.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretRight.swift; sourceTree = "<group>"; };
+		3763E57B9C4C7675081928B2DB97082C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406A96CB7EB68C748939AA68561A279F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420167F843751218DECD7B8958CAC1AD /* Pods-StockCarBroadcastRemainderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockCarBroadcastRemainderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		426A723E8E54E7214672D5D8F1B39E80 /* Pods-StockCarBroadcastRemainderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StockCarBroadcastRemainderTests-resources.sh"; sourceTree = "<group>"; };
+		52E6150EFFC0CD0463DF87ABC80E7DEE /* Pods-StockCarBroadcastRemainder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StockCarBroadcastRemainder.modulemap"; sourceTree = "<group>"; };
+		56B11577E627BE56B96699C192EB48DA /* DynamicButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButton.swift; path = Sources/DynamicButton.swift; sourceTree = "<group>"; };
+		58F967A718006F5F413E24BF8479EBDE /* DynamicButtonStyleArrowUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowUp.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowUp.swift; sourceTree = "<group>"; };
+		5CCE1C1CE6E689674C43ECC4ACF38B6D /* DynamicButtonStyleVerticalMoreOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleVerticalMoreOptions.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleVerticalMoreOptions.swift; sourceTree = "<group>"; };
+		5D55E69589E83F91929D8FAF3F157F93 /* Pods-StockCarBroadcastRemainderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StockCarBroadcastRemainderTests.modulemap"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		627017F373EA24C972CEC5E2D08471F0 /* Pods-StockCarBroadcastRemainder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StockCarBroadcastRemainder-frameworks.sh"; sourceTree = "<group>"; };
+		64AA38483C9757A7D7CA01D7437E9863 /* DynamicButtonStyleArrowRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowRight.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowRight.swift; sourceTree = "<group>"; };
+		64BC3ECD33100269520F017327CB5029 /* DynamicButtonStyleFastForward.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleFastForward.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleFastForward.swift; sourceTree = "<group>"; };
+		693D9B546C12A832A476A0DF28294581 /* DynamicButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicButton-dummy.m"; sourceTree = "<group>"; };
+		6CC4A8D04AFD2F3ED3F548A5A1931204 /* Pods-StockCarBroadcastRemainder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StockCarBroadcastRemainder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7534915C46BACBD4216817B092A09DB5 /* DynamicButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyle.swift; path = Sources/DynamicButtonStyle.swift; sourceTree = "<group>"; };
+		76D93C677D3BDA750924A9987E66D28B /* DynamicButtonStylePause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePause.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePause.swift; sourceTree = "<group>"; };
+		7CD228E8C9755CF4872C782EB750C057 /* Pods-StockCarBroadcastRemainderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StockCarBroadcastRemainderTests-dummy.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		82C38AF83291141685CD7E4B07A376B0 /* Pods-StockCarBroadcastRemainder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StockCarBroadcastRemainder-resources.sh"; sourceTree = "<group>"; };
+		87128A1F9D0A28FB84ECC05D97833F65 /* Pods-StockCarBroadcastRemainderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StockCarBroadcastRemainderTests-umbrella.h"; sourceTree = "<group>"; };
+		8F48D35563D34E8C1B4853382F96B26F /* Pods-StockCarBroadcastRemainder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StockCarBroadcastRemainder-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CA36B49E94C5646EC1A7BA2A9EDF42 /* DynamicButtonStyleDownload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDownload.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleDownload.swift; sourceTree = "<group>"; };
+		9A5FD19DB85D11B1AF4EF449729CDEC5 /* Pods-StockCarBroadcastRemainderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StockCarBroadcastRemainderUITests-umbrella.h"; sourceTree = "<group>"; };
+		A2AD82974274789B2D3A05F1AD44DC6A /* Pods-StockCarBroadcastRemainderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockCarBroadcastRemainderTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4B511D424ECE39BC6898C6658C30F47 /* Pods-StockCarBroadcastRemainderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockCarBroadcastRemainderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A89F1F359DD0BADE735F58AFD4AAAF6B /* DynamicButtonStyleRewind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleRewind.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleRewind.swift; sourceTree = "<group>"; };
+		A931E4C0090902C4D26A6856FB93BA62 /* DynamicButtonStyleCircleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCircleClose.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCircleClose.swift; sourceTree = "<group>"; };
+		B3CFE15A05B07DDB74979124E03C3C58 /* Pods-StockCarBroadcastRemainderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StockCarBroadcastRemainderUITests-dummy.m"; sourceTree = "<group>"; };
+		B3F8D41B47CF2153D38E491EB8EDC1A0 /* DynamicButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-prefix.pch"; sourceTree = "<group>"; };
+		B5657750FDA765D22D32726153EAEAF9 /* DynamicButtonStyleArrowDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowDown.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowDown.swift; sourceTree = "<group>"; };
+		B81BBA6FF7E69901480A4CEC9325D7F0 /* DynamicButtonStyleNone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleNone.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleNone.swift; sourceTree = "<group>"; };
+		BDEBCFB2D1750A5EC8CE222972C51CA3 /* DynamicButtonStyleCaretUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretUp.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretUp.swift; sourceTree = "<group>"; };
+		BE0349852516CC4345BDE0B3C53DDA9A /* Pods-StockCarBroadcastRemainderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StockCarBroadcastRemainderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF935E8DBD2F8C7A1B30FE8C1818AAC3 /* Pods-StockCarBroadcastRemainderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StockCarBroadcastRemainderTests-frameworks.sh"; sourceTree = "<group>"; };
+		C5CAD29FC484BE1DDD37F10E3CA5510F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C642556A08B74DF5F67FF2F1E44D49C8 /* DynamicButtonStylePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlus.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePlus.swift; sourceTree = "<group>"; };
+		CE941E90B87C11B4D496C3C8EB292ABE /* Pods-StockCarBroadcastRemainder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockCarBroadcastRemainder.debug.xcconfig"; sourceTree = "<group>"; };
+		CF9713114B3D6ABED6B86E91FF4806B6 /* DynamicButtonStyleStop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleStop.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleStop.swift; sourceTree = "<group>"; };
+		D27610241C8FFC6A34CF5FCFBE870561 /* DynamicButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicButton.framework; path = DynamicButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53A8EFE2F5C1A9CC3783D8ADB35055E /* DynamicButtonStyleArrowLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowLeft.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowLeft.swift; sourceTree = "<group>"; };
+		D99C424B66335FFE19A7EAEE838F6734 /* Pods_StockCarBroadcastRemainderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StockCarBroadcastRemainderUITests.framework; path = "Pods-StockCarBroadcastRemainderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC82F2B2235C4C448A38F32666A0DC5 /* Pods-StockCarBroadcastRemainderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StockCarBroadcastRemainderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF762714EFC592C5C9693DBE82460F26 /* DynamicButtonStyleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleClose.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleClose.swift; sourceTree = "<group>"; };
+		E01E8CDE4F1F4537A0FFD6EB1CF161DA /* DynamicButtonStylePlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlay.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePlay.swift; sourceTree = "<group>"; };
+		E29CB5CF381AF68FC85CECBEBCF53789 /* DynamicButtonStyleCaretLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretLeft.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretLeft.swift; sourceTree = "<group>"; };
+		E6BC88649E50AE2E00D10156BD8B483F /* Pods-StockCarBroadcastRemainderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockCarBroadcastRemainderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7FA5FE415988F33011BAFB640CE5924 /* Pods-StockCarBroadcastRemainder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockCarBroadcastRemainder.release.xcconfig"; sourceTree = "<group>"; };
+		E99AA78A35865AD399A5D8940030D693 /* DynamicButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DynamicButton.modulemap; sourceTree = "<group>"; };
+		E9EE2BD653A081548A1F9F028E0D94C2 /* Pods-StockCarBroadcastRemainderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-StockCarBroadcastRemainderUITests.modulemap"; sourceTree = "<group>"; };
+		EED1325E4C0C941D13D94BC73E9AF460 /* Pods-StockCarBroadcastRemainder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockCarBroadcastRemainder-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6D6CB5E6A53F9BE080D638CEE3212F5 /* DynamicButtonStyleVerticalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleVerticalLine.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleVerticalLine.swift; sourceTree = "<group>"; };
+		FD75827EEEAAE5298C355FEE30814B07 /* DynamicButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicButton.xcconfig; sourceTree = "<group>"; };
+		FE0A11572CC359CD33354F1A70AF77F6 /* DynamicButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5594EEB9C90FBBFF62D7CE5B9A397331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F837F08BCB91E0ABA7D24E08FC6C8B61 /* Foundation.framework in Frameworks */,
+				1E8042F4596CC7206AA529B8DC271CD0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C1B3853FF40C1DAF71C4FBA3EFB382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB1328727F84ECED2E66B4138186348 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75C64AE3F0BDAD2CAD11C52380E6D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462CAE70A0281A56EDF8A4B5F93ABD66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA039D9E195FEBB562F4CC5CC004A872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C7580E4BA1D9883BD8B8DA166999D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027A47067ED4ADCAB54D696229191CA9 /* Pods-StockCarBroadcastRemainderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3763E57B9C4C7675081928B2DB97082C /* Info.plist */,
+				5D55E69589E83F91929D8FAF3F157F93 /* Pods-StockCarBroadcastRemainderTests.modulemap */,
+				DBC82F2B2235C4C448A38F32666A0DC5 /* Pods-StockCarBroadcastRemainderTests-acknowledgements.markdown */,
+				0BFA6D3ACC943E99078DF394E3C026C1 /* Pods-StockCarBroadcastRemainderTests-acknowledgements.plist */,
+				7CD228E8C9755CF4872C782EB750C057 /* Pods-StockCarBroadcastRemainderTests-dummy.m */,
+				BF935E8DBD2F8C7A1B30FE8C1818AAC3 /* Pods-StockCarBroadcastRemainderTests-frameworks.sh */,
+				426A723E8E54E7214672D5D8F1B39E80 /* Pods-StockCarBroadcastRemainderTests-resources.sh */,
+				87128A1F9D0A28FB84ECC05D97833F65 /* Pods-StockCarBroadcastRemainderTests-umbrella.h */,
+				E6BC88649E50AE2E00D10156BD8B483F /* Pods-StockCarBroadcastRemainderTests.debug.xcconfig */,
+				A2AD82974274789B2D3A05F1AD44DC6A /* Pods-StockCarBroadcastRemainderTests.release.xcconfig */,
+			);
+			name = "Pods-StockCarBroadcastRemainderTests";
+			path = "Target Support Files/Pods-StockCarBroadcastRemainderTests";
+			sourceTree = "<group>";
+		};
+		361DF7B6EC8C3A32725201687D1FF043 /* DynamicButton */ = {
+			isa = PBXGroup;
+			children = (
+				56B11577E627BE56B96699C192EB48DA /* DynamicButton.swift */,
+				7534915C46BACBD4216817B092A09DB5 /* DynamicButtonStyle.swift */,
+				B5657750FDA765D22D32726153EAEAF9 /* DynamicButtonStyleArrowDown.swift */,
+				D53A8EFE2F5C1A9CC3783D8ADB35055E /* DynamicButtonStyleArrowLeft.swift */,
+				64AA38483C9757A7D7CA01D7437E9863 /* DynamicButtonStyleArrowRight.swift */,
+				58F967A718006F5F413E24BF8479EBDE /* DynamicButtonStyleArrowUp.swift */,
+				16169DE1585115901A9E729723A51656 /* DynamicButtonStyleCaretDown.swift */,
+				E29CB5CF381AF68FC85CECBEBCF53789 /* DynamicButtonStyleCaretLeft.swift */,
+				353CA689684B696D5DEC29970E0C174F /* DynamicButtonStyleCaretRight.swift */,
+				BDEBCFB2D1750A5EC8CE222972C51CA3 /* DynamicButtonStyleCaretUp.swift */,
+				1F085B8A3E5E1AFA1A783EC35E89C90A /* DynamicButtonStyleCheckMark.swift */,
+				A931E4C0090902C4D26A6856FB93BA62 /* DynamicButtonStyleCircleClose.swift */,
+				167B2F90B1D58E265D785F309C850E75 /* DynamicButtonStyleCirclePlus.swift */,
+				DF762714EFC592C5C9693DBE82460F26 /* DynamicButtonStyleClose.swift */,
+				215ADA789AE7A32319D39A4A9B8755EF /* DynamicButtonStyleDot.swift */,
+				95CA36B49E94C5646EC1A7BA2A9EDF42 /* DynamicButtonStyleDownload.swift */,
+				64BC3ECD33100269520F017327CB5029 /* DynamicButtonStyleFastForward.swift */,
+				3027AC52E0E228790CB0AE45BAAD686E /* DynamicButtonStyleHamburger.swift */,
+				22AFC8AAE4D2DDFD650A572335066198 /* DynamicButtonStyleHorizontalLine.swift */,
+				2C89A7A8BC25E517D639AFC8817AF4D1 /* DynamicButtonStyleHorizontalMoreOptions.swift */,
+				B81BBA6FF7E69901480A4CEC9325D7F0 /* DynamicButtonStyleNone.swift */,
+				76D93C677D3BDA750924A9987E66D28B /* DynamicButtonStylePause.swift */,
+				E01E8CDE4F1F4537A0FFD6EB1CF161DA /* DynamicButtonStylePlay.swift */,
+				C642556A08B74DF5F67FF2F1E44D49C8 /* DynamicButtonStylePlus.swift */,
+				327C406A49176D61D92ADD9F103B036C /* DynamicButtonStyleReload.swift */,
+				A89F1F359DD0BADE735F58AFD4AAAF6B /* DynamicButtonStyleRewind.swift */,
+				CF9713114B3D6ABED6B86E91FF4806B6 /* DynamicButtonStyleStop.swift */,
+				F6D6CB5E6A53F9BE080D638CEE3212F5 /* DynamicButtonStyleVerticalLine.swift */,
+				5CCE1C1CE6E689674C43ECC4ACF38B6D /* DynamicButtonStyleVerticalMoreOptions.swift */,
+				23F8BDE8DBFD23077F96B6A903EED9DB /* PathHelper.swift */,
+				68A83F274A5BB538B071C6C0C35BC11F /* Support Files */,
+			);
+			name = DynamicButton;
+			path = DynamicButton;
+			sourceTree = "<group>";
+		};
+		3CED9D135FC7DCAE1CFD717CE13877AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				361DF7B6EC8C3A32725201687D1FF043 /* DynamicButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C25BFC210F0E657EDA07CE488037480 /* Pods-StockCarBroadcastRemainder */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAD29FC484BE1DDD37F10E3CA5510F /* Info.plist */,
+				52E6150EFFC0CD0463DF87ABC80E7DEE /* Pods-StockCarBroadcastRemainder.modulemap */,
+				6CC4A8D04AFD2F3ED3F548A5A1931204 /* Pods-StockCarBroadcastRemainder-acknowledgements.markdown */,
+				EED1325E4C0C941D13D94BC73E9AF460 /* Pods-StockCarBroadcastRemainder-acknowledgements.plist */,
+				1B97B267CEBD086BB6E8F47442274763 /* Pods-StockCarBroadcastRemainder-dummy.m */,
+				627017F373EA24C972CEC5E2D08471F0 /* Pods-StockCarBroadcastRemainder-frameworks.sh */,
+				82C38AF83291141685CD7E4B07A376B0 /* Pods-StockCarBroadcastRemainder-resources.sh */,
+				8F48D35563D34E8C1B4853382F96B26F /* Pods-StockCarBroadcastRemainder-umbrella.h */,
+				CE941E90B87C11B4D496C3C8EB292ABE /* Pods-StockCarBroadcastRemainder.debug.xcconfig */,
+				E7FA5FE415988F33011BAFB640CE5924 /* Pods-StockCarBroadcastRemainder.release.xcconfig */,
+			);
+			name = "Pods-StockCarBroadcastRemainder";
+			path = "Target Support Files/Pods-StockCarBroadcastRemainder";
+			sourceTree = "<group>";
+		};
+		55BC4B4547525CDCD19B4BC9B2F88B3F /* Pods-StockCarBroadcastRemainderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				406A96CB7EB68C748939AA68561A279F /* Info.plist */,
+				E9EE2BD653A081548A1F9F028E0D94C2 /* Pods-StockCarBroadcastRemainderUITests.modulemap */,
+				BE0349852516CC4345BDE0B3C53DDA9A /* Pods-StockCarBroadcastRemainderUITests-acknowledgements.markdown */,
+				420167F843751218DECD7B8958CAC1AD /* Pods-StockCarBroadcastRemainderUITests-acknowledgements.plist */,
+				B3CFE15A05B07DDB74979124E03C3C58 /* Pods-StockCarBroadcastRemainderUITests-dummy.m */,
+				28F5A1775A3ED98E50644281A551724F /* Pods-StockCarBroadcastRemainderUITests-frameworks.sh */,
+				06304A5C96A884BCF5F8BB080693D851 /* Pods-StockCarBroadcastRemainderUITests-resources.sh */,
+				9A5FD19DB85D11B1AF4EF449729CDEC5 /* Pods-StockCarBroadcastRemainderUITests-umbrella.h */,
+				0AAFA2A8D127EAD9DCA19996475E3050 /* Pods-StockCarBroadcastRemainderUITests.debug.xcconfig */,
+				A4B511D424ECE39BC6898C6658C30F47 /* Pods-StockCarBroadcastRemainderUITests.release.xcconfig */,
+			);
+			name = "Pods-StockCarBroadcastRemainderUITests";
+			path = "Target Support Files/Pods-StockCarBroadcastRemainderUITests";
+			sourceTree = "<group>";
+		};
+		68A83F274A5BB538B071C6C0C35BC11F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E99AA78A35865AD399A5D8940030D693 /* DynamicButton.modulemap */,
+				FD75827EEEAAE5298C355FEE30814B07 /* DynamicButton.xcconfig */,
+				693D9B546C12A832A476A0DF28294581 /* DynamicButton-dummy.m */,
+				B3F8D41B47CF2153D38E491EB8EDC1A0 /* DynamicButton-prefix.pch */,
+				FE0A11572CC359CD33354F1A70AF77F6 /* DynamicButton-umbrella.h */,
+				232A814F8F0C1D22E5896681CE8BD0F5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicButton";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3CED9D135FC7DCAE1CFD717CE13877AB /* Pods */,
+				CB07F5553694FF31B3FCC3F63BA551D1 /* Products */,
+				A4057132E1E96C91248B30CF49E42D41 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A4057132E1E96C91248B30CF49E42D41 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C25BFC210F0E657EDA07CE488037480 /* Pods-StockCarBroadcastRemainder */,
+				027A47067ED4ADCAB54D696229191CA9 /* Pods-StockCarBroadcastRemainderTests */,
+				55BC4B4547525CDCD19B4BC9B2F88B3F /* Pods-StockCarBroadcastRemainderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CB07F5553694FF31B3FCC3F63BA551D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27610241C8FFC6A34CF5FCFBE870561 /* DynamicButton.framework */,
+				2F06FD7059035DAE3B301900B103E3CD /* Pods_StockCarBroadcastRemainder.framework */,
+				2B287678FDF7B052F410E39D2DC9AC6F /* Pods_StockCarBroadcastRemainderTests.framework */,
+				D99C424B66335FFE19A7EAEE838F6734 /* Pods_StockCarBroadcastRemainderUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ED7D410B80EC570A087443D943BCF60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9DA3471F533E8125BE9DF93E9225D2 /* DynamicButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6047EB3BFC496D6B28D073A9F749857A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64CC1E1BBEEAE01A5E178D5D8010D4C /* Pods-StockCarBroadcastRemainderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A539CB2746A2CC14F6DF8DB1F1F659A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FB785B0C121CA9DAB666EB522C0518 /* Pods-StockCarBroadcastRemainderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD94F940A5DFBACE81D26CA4661C172A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CD505D08653F5654F5F7CAAFCDE4AF /* Pods-StockCarBroadcastRemainder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5CFADD8B5DCDA7B45BE71DAB2881C489 /* Pods-StockCarBroadcastRemainderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307DAC492565FD5CDFD86F0B3D8F894F /* Build configuration list for PBXNativeTarget "Pods-StockCarBroadcastRemainderUITests" */;
+			buildPhases = (
+				84879F1963C2EA48CB12F28F589A7BA8 /* Sources */,
+				CA039D9E195FEBB562F4CC5CC004A872 /* Frameworks */,
+				A539CB2746A2CC14F6DF8DB1F1F659A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StockCarBroadcastRemainderUITests";
+			productName = "Pods-StockCarBroadcastRemainderUITests";
+			productReference = D99C424B66335FFE19A7EAEE838F6734 /* Pods_StockCarBroadcastRemainderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B526A559BBDEC9021BA0144D618FDDF4 /* Build configuration list for PBXNativeTarget "DynamicButton" */;
+			buildPhases = (
+				C0413766E060813A26738D9D6D430DC9 /* Sources */,
+				5594EEB9C90FBBFF62D7CE5B9A397331 /* Frameworks */,
+				2ED7D410B80EC570A087443D943BCF60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicButton;
+			productName = DynamicButton;
+			productReference = D27610241C8FFC6A34CF5FCFBE870561 /* DynamicButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD1D89CFF9513A1122B548EC88D56EFA /* Pods-StockCarBroadcastRemainder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15959934164A31C1D9F5479616585648 /* Build configuration list for PBXNativeTarget "Pods-StockCarBroadcastRemainder" */;
+			buildPhases = (
+				9D70E4228D081801EE9B66BB65FE7248 /* Sources */,
+				A75C64AE3F0BDAD2CAD11C52380E6D11 /* Frameworks */,
+				CD94F940A5DFBACE81D26CA4661C172A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D16FADD60C2FE00C932684BD51C58B /* PBXTargetDependency */,
+			);
+			name = "Pods-StockCarBroadcastRemainder";
+			productName = "Pods-StockCarBroadcastRemainder";
+			productReference = 2F06FD7059035DAE3B301900B103E3CD /* Pods_StockCarBroadcastRemainder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DCF2C77120DAB8BE17C26689EE66FB49 /* Pods-StockCarBroadcastRemainderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AC0853CF901A8DEB4A3E1E13732108 /* Build configuration list for PBXNativeTarget "Pods-StockCarBroadcastRemainderTests" */;
+			buildPhases = (
+				76FC37D081751B071D74C5E8F35E4935 /* Sources */,
+				95C1B3853FF40C1DAF71C4FBA3EFB382 /* Frameworks */,
+				6047EB3BFC496D6B28D073A9F749857A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StockCarBroadcastRemainderTests";
+			productName = "Pods-StockCarBroadcastRemainderTests";
+			productReference = 2B287678FDF7B052F410E39D2DC9AC6F /* Pods_StockCarBroadcastRemainderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CB07F5553694FF31B3FCC3F63BA551D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */,
+				BD1D89CFF9513A1122B548EC88D56EFA /* Pods-StockCarBroadcastRemainder */,
+				DCF2C77120DAB8BE17C26689EE66FB49 /* Pods-StockCarBroadcastRemainderTests */,
+				5CFADD8B5DCDA7B45BE71DAB2881C489 /* Pods-StockCarBroadcastRemainderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76FC37D081751B071D74C5E8F35E4935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48553CDFE254F2B62EB44F4230AB032D /* Pods-StockCarBroadcastRemainderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84879F1963C2EA48CB12F28F589A7BA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E376EA05A0993D8FCFD8D21A39C293A /* Pods-StockCarBroadcastRemainderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D70E4228D081801EE9B66BB65FE7248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7061641DD356FEDC8E668ABFD65320 /* Pods-StockCarBroadcastRemainder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0413766E060813A26738D9D6D430DC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DA0B7DDADC2A3860AFFE5052FEC99F /* DynamicButton-dummy.m in Sources */,
+				8A2B52FCC4F5C813B70A94BFAE7D24D5 /* DynamicButton.swift in Sources */,
+				E9EF40D4204A4884FE38020080FF2D51 /* DynamicButtonStyle.swift in Sources */,
+				085001B0C4983085045E8DCD71FFCE6C /* DynamicButtonStyleArrowDown.swift in Sources */,
+				7280A91C6C7508B6D82C755F40772C17 /* DynamicButtonStyleArrowLeft.swift in Sources */,
+				F3726F74C43DB3BE4A51AD3F480D29DC /* DynamicButtonStyleArrowRight.swift in Sources */,
+				BC90D58697892020E2F2F2D69DB9761E /* DynamicButtonStyleArrowUp.swift in Sources */,
+				95D78044963340B7CE31E82F96DD9C99 /* DynamicButtonStyleCaretDown.swift in Sources */,
+				B51FEC4EBB8A679184DCA38ED5FD2301 /* DynamicButtonStyleCaretLeft.swift in Sources */,
+				4AAA32AE79331482048A2BF5164E237D /* DynamicButtonStyleCaretRight.swift in Sources */,
+				276F47CC7EC67090E110DBDE7156AA72 /* DynamicButtonStyleCaretUp.swift in Sources */,
+				D8D6C0DDA65FC12591C67851F7585F95 /* DynamicButtonStyleCheckMark.swift in Sources */,
+				C78A65154E32610D313207E258256D15 /* DynamicButtonStyleCircleClose.swift in Sources */,
+				85DB37167784FCC49672C51155C5A321 /* DynamicButtonStyleCirclePlus.swift in Sources */,
+				6F16EA77E2BECC0DF9C36696191405EA /* DynamicButtonStyleClose.swift in Sources */,
+				E51676DF4BB97DFBBFF5E685BA131B9B /* DynamicButtonStyleDot.swift in Sources */,
+				1C403B5EB32D705543C7CCDEE4B4EC59 /* DynamicButtonStyleDownload.swift in Sources */,
+				AD102D0B847AC67C973F7A8D59B82DE0 /* DynamicButtonStyleFastForward.swift in Sources */,
+				4313B742D8BF3FBF8E51AA05295534C4 /* DynamicButtonStyleHamburger.swift in Sources */,
+				DE5A68220135A9592056B55DF474E2DC /* DynamicButtonStyleHorizontalLine.swift in Sources */,
+				8BDA7C4F0B42C3635EB49DB292AD7515 /* DynamicButtonStyleHorizontalMoreOptions.swift in Sources */,
+				9A72870177D8CA7841AF6F9BB8C54E5F /* DynamicButtonStyleNone.swift in Sources */,
+				2F632A4D1ADD5136B02A32C056154E95 /* DynamicButtonStylePause.swift in Sources */,
+				999DD8BEF7680C24E947FC3DA9D83B53 /* DynamicButtonStylePlay.swift in Sources */,
+				9B46F6A57B8E17B8B07E1944C4D01946 /* DynamicButtonStylePlus.swift in Sources */,
+				9588AA025059E33574CAC925D7594813 /* DynamicButtonStyleReload.swift in Sources */,
+				1469C8F5CBE1840B72789D3C0E217F1C /* DynamicButtonStyleRewind.swift in Sources */,
+				3C23CEF4673BC25D4182C31836C7779B /* DynamicButtonStyleStop.swift in Sources */,
+				0A472E63CF2A259EDDC473BE03174CBD /* DynamicButtonStyleVerticalLine.swift in Sources */,
+				C1F86D58603A88EF0D11BE51148BBE96 /* DynamicButtonStyleVerticalMoreOptions.swift in Sources */,
+				9AC0FAB323E6EFA9E4F1C9F4E9A07A28 /* PathHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D16FADD60C2FE00C932684BD51C58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicButton;
+			target = AAE24ACA00B7B35A5EB9168B684E5317 /* DynamicButton */;
+			targetProxy = 87D5921D51BF0A8BE9168869AFB8121F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17A0B80B7D94D273FC0B0B162BEB7C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FA5FE415988F33011BAFB640CE5924 /* Pods-StockCarBroadcastRemainder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StockCarBroadcastRemainder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockCarBroadcastRemainder/Pods-StockCarBroadcastRemainder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StockCarBroadcastRemainder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		275247DB3154FFFF2B1BD12AE41C5EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6BC88649E50AE2E00D10156BD8B483F /* Pods-StockCarBroadcastRemainderTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StockCarBroadcastRemainderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockCarBroadcastRemainderTests/Pods-StockCarBroadcastRemainderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StockCarBroadcastRemainderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41F175B363BF47BAC98445093C71CAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE941E90B87C11B4D496C3C8EB292ABE /* Pods-StockCarBroadcastRemainder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StockCarBroadcastRemainder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockCarBroadcastRemainder/Pods-StockCarBroadcastRemainder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StockCarBroadcastRemainder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57E1ACF60CD6156EB155D299D0D922E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD75827EEEAAE5298C355FEE30814B07 /* DynamicButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DynamicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B117147052A846E30EA38A7CBA0E9A6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2AD82974274789B2D3A05F1AD44DC6A /* Pods-StockCarBroadcastRemainderTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StockCarBroadcastRemainderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockCarBroadcastRemainderTests/Pods-StockCarBroadcastRemainderTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StockCarBroadcastRemainderTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7E5C384F3B6BF7B43A57F57895EEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD75827EEEAAE5298C355FEE30814B07 /* DynamicButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DynamicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1CF045FD38FDC9761010D801AEDDAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B511D424ECE39BC6898C6658C30F47 /* Pods-StockCarBroadcastRemainderUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StockCarBroadcastRemainderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockCarBroadcastRemainderUITests/Pods-StockCarBroadcastRemainderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StockCarBroadcastRemainderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2E8C2743B9294263A08B25AE05BD2F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AAFA2A8D127EAD9DCA19996475E3050 /* Pods-StockCarBroadcastRemainderUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-StockCarBroadcastRemainderUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockCarBroadcastRemainderUITests/Pods-StockCarBroadcastRemainderUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_StockCarBroadcastRemainderUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15959934164A31C1D9F5479616585648 /* Build configuration list for PBXNativeTarget "Pods-StockCarBroadcastRemainder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41F175B363BF47BAC98445093C71CAE4 /* Debug */,
+				17A0B80B7D94D273FC0B0B162BEB7C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307DAC492565FD5CDFD86F0B3D8F894F /* Build configuration list for PBXNativeTarget "Pods-StockCarBroadcastRemainderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E8C2743B9294263A08B25AE05BD2F1 /* Debug */,
+				F1CF045FD38FDC9761010D801AEDDAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B526A559BBDEC9021BA0144D618FDDF4 /* Build configuration list for PBXNativeTarget "DynamicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7E5C384F3B6BF7B43A57F57895EEDA /* Debug */,
+				57E1ACF60CD6156EB155D299D0D922E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AC0853CF901A8DEB4A3E1E13732108 /* Build configuration list for PBXNativeTarget "Pods-StockCarBroadcastRemainderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275247DB3154FFFF2B1BD12AE41C5EFC /* Debug */,
+				B117147052A846E30EA38A7CBA0E9A6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
