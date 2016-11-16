@@ -10,38 +10,6 @@
 		6EFEE96A5278415775DE54CE /* Pods_StockCarBroadcastRemainderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FB1D6891B1CBB56FF7D147 /* Pods_StockCarBroadcastRemainderTests.framework */; };
 		8D7657AEF73D7D1156BD8E65 /* Pods_StockCarBroadcastRemainderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46B00BE8F21CF4386CBDB05 /* Pods_StockCarBroadcastRemainderUITests.framework */; };
 		A24FAE68A5B37ABC766E5212 /* Pods_StockCarBroadcastRemainder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5A4513733777F72DFB8FF2 /* Pods_StockCarBroadcastRemainder.framework */; };
-		E51D56C31DD51E4C00594363 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56A21DD51E4C00594363 /* DynamicButton.swift */; };
-		E51D56C41DD51E4C00594363 /* DynamicButtonBuildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56A31DD51E4C00594363 /* DynamicButtonBuildable.swift */; };
-		E51D56C51DD51E4C00594363 /* DynamicButtonPathVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56A41DD51E4C00594363 /* DynamicButtonPathVector.swift */; };
-		E51D56C61DD51E4C00594363 /* DynamicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56A51DD51E4C00594363 /* DynamicButtonStyle.swift */; };
-		E51D56C71DD51E4C00594363 /* DynamicButtonStyleArrowDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56A71DD51E4C00594363 /* DynamicButtonStyleArrowDown.swift */; };
-		E51D56C81DD51E4C00594363 /* DynamicButtonStyleArrowLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56A81DD51E4C00594363 /* DynamicButtonStyleArrowLeft.swift */; };
-		E51D56C91DD51E4C00594363 /* DynamicButtonStyleArrowRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56A91DD51E4C00594363 /* DynamicButtonStyleArrowRight.swift */; };
-		E51D56CA1DD51E4C00594363 /* DynamicButtonStyleArrowUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56AA1DD51E4C00594363 /* DynamicButtonStyleArrowUp.swift */; };
-		E51D56CB1DD51E4C00594363 /* DynamicButtonStyleCaretDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56AB1DD51E4C00594363 /* DynamicButtonStyleCaretDown.swift */; };
-		E51D56CC1DD51E4C00594363 /* DynamicButtonStyleCaretLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56AC1DD51E4C00594363 /* DynamicButtonStyleCaretLeft.swift */; };
-		E51D56CD1DD51E4C00594363 /* DynamicButtonStyleCaretRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56AD1DD51E4C00594363 /* DynamicButtonStyleCaretRight.swift */; };
-		E51D56CE1DD51E4C00594363 /* DynamicButtonStyleCaretUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56AE1DD51E4C00594363 /* DynamicButtonStyleCaretUp.swift */; };
-		E51D56CF1DD51E4C00594363 /* DynamicButtonStyleCheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56AF1DD51E4C00594363 /* DynamicButtonStyleCheckMark.swift */; };
-		E51D56D01DD51E4C00594363 /* DynamicButtonStyleCircleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B01DD51E4C00594363 /* DynamicButtonStyleCircleClose.swift */; };
-		E51D56D11DD51E4C00594363 /* DynamicButtonStyleCirclePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B11DD51E4C00594363 /* DynamicButtonStyleCirclePlus.swift */; };
-		E51D56D21DD51E4C00594363 /* DynamicButtonStyleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B21DD51E4C00594363 /* DynamicButtonStyleClose.swift */; };
-		E51D56D31DD51E4C00594363 /* DynamicButtonStyleDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B31DD51E4C00594363 /* DynamicButtonStyleDot.swift */; };
-		E51D56D41DD51E4C00594363 /* DynamicButtonStyleDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B41DD51E4C00594363 /* DynamicButtonStyleDownload.swift */; };
-		E51D56D51DD51E4C00594363 /* DynamicButtonStyleFastForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B51DD51E4C00594363 /* DynamicButtonStyleFastForward.swift */; };
-		E51D56D61DD51E4C00594363 /* DynamicButtonStyleHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B61DD51E4C00594363 /* DynamicButtonStyleHamburger.swift */; };
-		E51D56D71DD51E4C00594363 /* DynamicButtonStyleHorizontalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B71DD51E4C00594363 /* DynamicButtonStyleHorizontalLine.swift */; };
-		E51D56D81DD51E4C00594363 /* DynamicButtonStyleHorizontalMoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B81DD51E4C00594363 /* DynamicButtonStyleHorizontalMoreOptions.swift */; };
-		E51D56D91DD51E4C00594363 /* DynamicButtonStyleNone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56B91DD51E4C00594363 /* DynamicButtonStyleNone.swift */; };
-		E51D56DA1DD51E4C00594363 /* DynamicButtonStylePause.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56BA1DD51E4C00594363 /* DynamicButtonStylePause.swift */; };
-		E51D56DB1DD51E4C00594363 /* DynamicButtonStylePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56BB1DD51E4C00594363 /* DynamicButtonStylePlay.swift */; };
-		E51D56DC1DD51E4C00594363 /* DynamicButtonStylePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56BC1DD51E4C00594363 /* DynamicButtonStylePlus.swift */; };
-		E51D56DD1DD51E4C00594363 /* DynamicButtonStyleReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56BD1DD51E4C00594363 /* DynamicButtonStyleReload.swift */; };
-		E51D56DE1DD51E4C00594363 /* DynamicButtonStyleRewind.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56BE1DD51E4C00594363 /* DynamicButtonStyleRewind.swift */; };
-		E51D56DF1DD51E4C00594363 /* DynamicButtonStyleStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56BF1DD51E4C00594363 /* DynamicButtonStyleStop.swift */; };
-		E51D56E01DD51E4C00594363 /* DynamicButtonStyleVerticalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56C01DD51E4C00594363 /* DynamicButtonStyleVerticalLine.swift */; };
-		E51D56E11DD51E4C00594363 /* DynamicButtonStyleVerticalMoreOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56C11DD51E4C00594363 /* DynamicButtonStyleVerticalMoreOptions.swift */; };
-		E51D56E21DD51E4C00594363 /* PathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51D56C21DD51E4C00594363 /* PathHelper.swift */; };
 		E51D8C551DD51DA100873F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51D8C501DD51DA100873F6F /* Assets.xcassets */; };
 		E51D8C561DD51DA100873F6F /* Broadcasters.json in Resources */ = {isa = PBXBuildFile; fileRef = E51D8C511DD51DA100873F6F /* Broadcasters.json */; };
 		E51D8C571DD51DA100873F6F /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = E51D8C521DD51DA100873F6F /* Events.json */; };
@@ -114,38 +82,6 @@
 		C424091ABB1145B5CD757B54 /* Pods-StockCarBroadcastRemainderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockCarBroadcastRemainderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockCarBroadcastRemainderTests/Pods-StockCarBroadcastRemainderTests.release.xcconfig"; sourceTree = "<group>"; };
 		C845FA4A785B7B70A20636BF /* Pods-StockCarBroadcastRemainderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockCarBroadcastRemainderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockCarBroadcastRemainderUITests/Pods-StockCarBroadcastRemainderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DE5A4513733777F72DFB8FF2 /* Pods_StockCarBroadcastRemainder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockCarBroadcastRemainder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E51D56A21DD51E4C00594363 /* DynamicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButton.swift; sourceTree = "<group>"; };
-		E51D56A31DD51E4C00594363 /* DynamicButtonBuildable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonBuildable.swift; sourceTree = "<group>"; };
-		E51D56A41DD51E4C00594363 /* DynamicButtonPathVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonPathVector.swift; sourceTree = "<group>"; };
-		E51D56A51DD51E4C00594363 /* DynamicButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyle.swift; sourceTree = "<group>"; };
-		E51D56A71DD51E4C00594363 /* DynamicButtonStyleArrowDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleArrowDown.swift; sourceTree = "<group>"; };
-		E51D56A81DD51E4C00594363 /* DynamicButtonStyleArrowLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleArrowLeft.swift; sourceTree = "<group>"; };
-		E51D56A91DD51E4C00594363 /* DynamicButtonStyleArrowRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleArrowRight.swift; sourceTree = "<group>"; };
-		E51D56AA1DD51E4C00594363 /* DynamicButtonStyleArrowUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleArrowUp.swift; sourceTree = "<group>"; };
-		E51D56AB1DD51E4C00594363 /* DynamicButtonStyleCaretDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleCaretDown.swift; sourceTree = "<group>"; };
-		E51D56AC1DD51E4C00594363 /* DynamicButtonStyleCaretLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleCaretLeft.swift; sourceTree = "<group>"; };
-		E51D56AD1DD51E4C00594363 /* DynamicButtonStyleCaretRight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleCaretRight.swift; sourceTree = "<group>"; };
-		E51D56AE1DD51E4C00594363 /* DynamicButtonStyleCaretUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleCaretUp.swift; sourceTree = "<group>"; };
-		E51D56AF1DD51E4C00594363 /* DynamicButtonStyleCheckMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleCheckMark.swift; sourceTree = "<group>"; };
-		E51D56B01DD51E4C00594363 /* DynamicButtonStyleCircleClose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleCircleClose.swift; sourceTree = "<group>"; };
-		E51D56B11DD51E4C00594363 /* DynamicButtonStyleCirclePlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleCirclePlus.swift; sourceTree = "<group>"; };
-		E51D56B21DD51E4C00594363 /* DynamicButtonStyleClose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleClose.swift; sourceTree = "<group>"; };
-		E51D56B31DD51E4C00594363 /* DynamicButtonStyleDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleDot.swift; sourceTree = "<group>"; };
-		E51D56B41DD51E4C00594363 /* DynamicButtonStyleDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleDownload.swift; sourceTree = "<group>"; };
-		E51D56B51DD51E4C00594363 /* DynamicButtonStyleFastForward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleFastForward.swift; sourceTree = "<group>"; };
-		E51D56B61DD51E4C00594363 /* DynamicButtonStyleHamburger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleHamburger.swift; sourceTree = "<group>"; };
-		E51D56B71DD51E4C00594363 /* DynamicButtonStyleHorizontalLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleHorizontalLine.swift; sourceTree = "<group>"; };
-		E51D56B81DD51E4C00594363 /* DynamicButtonStyleHorizontalMoreOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleHorizontalMoreOptions.swift; sourceTree = "<group>"; };
-		E51D56B91DD51E4C00594363 /* DynamicButtonStyleNone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleNone.swift; sourceTree = "<group>"; };
-		E51D56BA1DD51E4C00594363 /* DynamicButtonStylePause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStylePause.swift; sourceTree = "<group>"; };
-		E51D56BB1DD51E4C00594363 /* DynamicButtonStylePlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStylePlay.swift; sourceTree = "<group>"; };
-		E51D56BC1DD51E4C00594363 /* DynamicButtonStylePlus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStylePlus.swift; sourceTree = "<group>"; };
-		E51D56BD1DD51E4C00594363 /* DynamicButtonStyleReload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleReload.swift; sourceTree = "<group>"; };
-		E51D56BE1DD51E4C00594363 /* DynamicButtonStyleRewind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleRewind.swift; sourceTree = "<group>"; };
-		E51D56BF1DD51E4C00594363 /* DynamicButtonStyleStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleStop.swift; sourceTree = "<group>"; };
-		E51D56C01DD51E4C00594363 /* DynamicButtonStyleVerticalLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleVerticalLine.swift; sourceTree = "<group>"; };
-		E51D56C11DD51E4C00594363 /* DynamicButtonStyleVerticalMoreOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicButtonStyleVerticalMoreOptions.swift; sourceTree = "<group>"; };
-		E51D56C21DD51E4C00594363 /* PathHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathHelper.swift; sourceTree = "<group>"; };
 		E51D8C501DD51DA100873F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E51D8C511DD51DA100873F6F /* Broadcasters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Broadcasters.json; sourceTree = "<group>"; };
 		E51D8C521DD51DA100873F6F /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
@@ -253,56 +189,8 @@
 		E51D56A01DD51E2700594363 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				E51D56A11DD51E4C00594363 /* DynamicButton */,
 			);
 			path = Vendors;
-			sourceTree = "<group>";
-		};
-		E51D56A11DD51E4C00594363 /* DynamicButton */ = {
-			isa = PBXGroup;
-			children = (
-				E51D56A21DD51E4C00594363 /* DynamicButton.swift */,
-				E51D56A31DD51E4C00594363 /* DynamicButtonBuildable.swift */,
-				E51D56A41DD51E4C00594363 /* DynamicButtonPathVector.swift */,
-				E51D56A51DD51E4C00594363 /* DynamicButtonStyle.swift */,
-				E51D56A61DD51E4C00594363 /* DynamicButtonStyles */,
-				E51D56C21DD51E4C00594363 /* PathHelper.swift */,
-			);
-			path = DynamicButton;
-			sourceTree = "<group>";
-		};
-		E51D56A61DD51E4C00594363 /* DynamicButtonStyles */ = {
-			isa = PBXGroup;
-			children = (
-				E51D56A71DD51E4C00594363 /* DynamicButtonStyleArrowDown.swift */,
-				E51D56A81DD51E4C00594363 /* DynamicButtonStyleArrowLeft.swift */,
-				E51D56A91DD51E4C00594363 /* DynamicButtonStyleArrowRight.swift */,
-				E51D56AA1DD51E4C00594363 /* DynamicButtonStyleArrowUp.swift */,
-				E51D56AB1DD51E4C00594363 /* DynamicButtonStyleCaretDown.swift */,
-				E51D56AC1DD51E4C00594363 /* DynamicButtonStyleCaretLeft.swift */,
-				E51D56AD1DD51E4C00594363 /* DynamicButtonStyleCaretRight.swift */,
-				E51D56AE1DD51E4C00594363 /* DynamicButtonStyleCaretUp.swift */,
-				E51D56AF1DD51E4C00594363 /* DynamicButtonStyleCheckMark.swift */,
-				E51D56B01DD51E4C00594363 /* DynamicButtonStyleCircleClose.swift */,
-				E51D56B11DD51E4C00594363 /* DynamicButtonStyleCirclePlus.swift */,
-				E51D56B21DD51E4C00594363 /* DynamicButtonStyleClose.swift */,
-				E51D56B31DD51E4C00594363 /* DynamicButtonStyleDot.swift */,
-				E51D56B41DD51E4C00594363 /* DynamicButtonStyleDownload.swift */,
-				E51D56B51DD51E4C00594363 /* DynamicButtonStyleFastForward.swift */,
-				E51D56B61DD51E4C00594363 /* DynamicButtonStyleHamburger.swift */,
-				E51D56B71DD51E4C00594363 /* DynamicButtonStyleHorizontalLine.swift */,
-				E51D56B81DD51E4C00594363 /* DynamicButtonStyleHorizontalMoreOptions.swift */,
-				E51D56B91DD51E4C00594363 /* DynamicButtonStyleNone.swift */,
-				E51D56BA1DD51E4C00594363 /* DynamicButtonStylePause.swift */,
-				E51D56BB1DD51E4C00594363 /* DynamicButtonStylePlay.swift */,
-				E51D56BC1DD51E4C00594363 /* DynamicButtonStylePlus.swift */,
-				E51D56BD1DD51E4C00594363 /* DynamicButtonStyleReload.swift */,
-				E51D56BE1DD51E4C00594363 /* DynamicButtonStyleRewind.swift */,
-				E51D56BF1DD51E4C00594363 /* DynamicButtonStyleStop.swift */,
-				E51D56C01DD51E4C00594363 /* DynamicButtonStyleVerticalLine.swift */,
-				E51D56C11DD51E4C00594363 /* DynamicButtonStyleVerticalMoreOptions.swift */,
-			);
-			path = DynamicButtonStyles;
 			sourceTree = "<group>";
 		};
 		E51D8C4F1DD51DA100873F6F /* Resources */ = {
@@ -529,6 +417,7 @@
 				E52CFAF21DC3E1A00029ADBD /* Frameworks */,
 				E52CFAF31DC3E1A00029ADBD /* Resources */,
 				EE06DA195A59F254C5152205 /* [CP] Copy Pods Resources */,
+				B2E2534A2E347979027F69AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -635,7 +524,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6D12C8ABA88480A698DB72BF /* [CP] Embed Pods Frameworks */ = {
@@ -665,7 +554,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E2534A2E347979027F69AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StockCarBroadcastRemainderUITests/Pods-StockCarBroadcastRemainderUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D4A077725C82B5883D4B1CD5 /* [CP] Check Pods Manifest.lock */ = {
@@ -680,7 +584,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DD423F14399003A32FCA9A6F /* [CP] Embed Pods Frameworks */ = {
@@ -750,67 +654,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E51D56C91DD51E4C00594363 /* DynamicButtonStyleArrowRight.swift in Sources */,
-				E51D56CB1DD51E4C00594363 /* DynamicButtonStyleCaretDown.swift in Sources */,
 				E5B205641DCE724200E18210 /* CalendarViewController.swift in Sources */,
 				E564F8BD1DC4C2D800B29982 /* VideoBroadcaster+CoreDataProperties.swift in Sources */,
-				E51D56CD1DD51E4C00594363 /* DynamicButtonStyleCaretRight.swift in Sources */,
 				E564F8B81DC4C2D800B29982 /* AudioBroadcaster+CoreDataClass.swift in Sources */,
 				E52CFB141DC3E4850029ADBD /* SerieCell.swift in Sources */,
 				E52CFB461DC3E57F0029ADBD /* StockCarBroadcastRemainder.xcdatamodeld in Sources */,
 				E52CFB2F1DC3E4B90029ADBD /* NSDate+Formatting.swift in Sources */,
 				E564F8BB1DC4C2D800B29982 /* Event+CoreDataProperties.swift in Sources */,
-				E51D56C41DD51E4C00594363 /* DynamicButtonBuildable.swift in Sources */,
 				E52CFB321DC3E4B90029ADBD /* UIImage+Coloring.swift in Sources */,
-				E51D56D61DD51E4C00594363 /* DynamicButtonStyleHamburger.swift in Sources */,
 				E564F8C11DC4C2D800B29982 /* Track+CoreDataProperties.swift in Sources */,
 				E564F8BA1DC4C2D800B29982 /* Event+CoreDataClass.swift in Sources */,
 				E52CFB311DC3E4B90029ADBD /* UIColor+Utils.swift in Sources */,
-				E51D56DE1DD51E4C00594363 /* DynamicButtonStyleRewind.swift in Sources */,
-				E51D56E11DD51E4C00594363 /* DynamicButtonStyleVerticalMoreOptions.swift in Sources */,
 				E52CFB2D1DC3E4B90029ADBD /* EventManager.swift in Sources */,
 				E564F8BC1DC4C2D800B29982 /* VideoBroadcaster+CoreDataClass.swift in Sources */,
-				E51D56CF1DD51E4C00594363 /* DynamicButtonStyleCheckMark.swift in Sources */,
-				E51D56D71DD51E4C00594363 /* DynamicButtonStyleHorizontalLine.swift in Sources */,
 				E52CFB131DC3E4850029ADBD /* MapTableViewCell.swift in Sources */,
-				E51D56CA1DD51E4C00594363 /* DynamicButtonStyleArrowUp.swift in Sources */,
-				E51D56DA1DD51E4C00594363 /* DynamicButtonStylePause.swift in Sources */,
 				E52CFB2C1DC3E4B90029ADBD /* Constants.swift in Sources */,
 				E564F8BF1DC4C2D800B29982 /* Serie+CoreDataProperties.swift in Sources */,
 				E52CFB101DC3E4850029ADBD /* EventTitleTableViewCell.swift in Sources */,
 				E52CFB481DC3E5F10029ADBD /* DatabaseManager.swift in Sources */,
-				E51D56E01DD51E4C00594363 /* DynamicButtonStyleVerticalLine.swift in Sources */,
-				E51D56C81DD51E4C00594363 /* DynamicButtonStyleArrowLeft.swift in Sources */,
-				E51D56D11DD51E4C00594363 /* DynamicButtonStyleCirclePlus.swift in Sources */,
-				E51D56DC1DD51E4C00594363 /* DynamicButtonStylePlus.swift in Sources */,
 				E52CFB301DC3E4B90029ADBD /* Painter.swift in Sources */,
 				E52CFB2E1DC3E4B90029ADBD /* LocalNotificationsManager.swift in Sources */,
-				E51D56C51DD51E4C00594363 /* DynamicButtonPathVector.swift in Sources */,
-				E51D56D31DD51E4C00594363 /* DynamicButtonStyleDot.swift in Sources */,
 				E52CFB151DC3E4850029ADBD /* TextLabelTableViewCell.swift in Sources */,
-				E51D56CC1DD51E4C00594363 /* DynamicButtonStyleCaretLeft.swift in Sources */,
-				E51D56DB1DD51E4C00594363 /* DynamicButtonStylePlay.swift in Sources */,
 				E52CFB221DC3E4B00029ADBD /* TableViewLabelHeaderView.swift in Sources */,
 				E564F8C01DC4C2D800B29982 /* Track+CoreDataClass.swift in Sources */,
 				E5B205661DCE724200E18210 /* MainViewController.swift in Sources */,
 				E564F8BE1DC4C2D800B29982 /* Serie+CoreDataClass.swift in Sources */,
 				E564F8B91DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift in Sources */,
-				E51D56CE1DD51E4C00594363 /* DynamicButtonStyleCaretUp.swift in Sources */,
-				E51D56D81DD51E4C00594363 /* DynamicButtonStyleHorizontalMoreOptions.swift in Sources */,
-				E51D56D91DD51E4C00594363 /* DynamicButtonStyleNone.swift in Sources */,
-				E51D56D21DD51E4C00594363 /* DynamicButtonStyleClose.swift in Sources */,
-				E51D56DD1DD51E4C00594363 /* DynamicButtonStyleReload.swift in Sources */,
 				E52CFB121DC3E4850029ADBD /* MainTableVewCell.swift in Sources */,
-				E51D56D01DD51E4C00594363 /* DynamicButtonStyleCircleClose.swift in Sources */,
-				E51D56C31DD51E4C00594363 /* DynamicButton.swift in Sources */,
-				E51D56E21DD51E4C00594363 /* PathHelper.swift in Sources */,
-				E51D56C61DD51E4C00594363 /* DynamicButtonStyle.swift in Sources */,
-				E51D56D41DD51E4C00594363 /* DynamicButtonStyleDownload.swift in Sources */,
 				E53859931DD2167500ADC7EE /* UIView+Effects.swift in Sources */,
 				E5B205651DCE724200E18210 /* EventDetailsViewController.swift in Sources */,
-				E51D56DF1DD51E4C00594363 /* DynamicButtonStyleStop.swift in Sources */,
-				E51D56C71DD51E4C00594363 /* DynamicButtonStyleArrowDown.swift in Sources */,
-				E51D56D51DD51E4C00594363 /* DynamicButtonStyleFastForward.swift in Sources */,
 				E52CFB111DC3E4850029ADBD /* ImageTableViewCell.swift in Sources */,
 				E52CFB0F1DC3E4850029ADBD /* BroadcastersTableViewCell.swift in Sources */,
 				E52CFAD71DC3E1A00029ADBD /* AppDelegate.swift in Sources */,
@@ -988,7 +860,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8166304A126CDEDC46AAE67D /* Pods-StockCarBroadcastRemainderTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 96837XF4KD;
 				INFOPLIST_FILE = StockCarBroadcastRemainderTests/Info.plist;
@@ -1004,7 +876,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C424091ABB1145B5CD757B54 /* Pods-StockCarBroadcastRemainderTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 96837XF4KD;
 				INFOPLIST_FILE = StockCarBroadcastRemainderTests/Info.plist;
@@ -1020,7 +892,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3E87D73EAAA085A1F9B7F659 /* Pods-StockCarBroadcastRemainderUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 96837XF4KD;
 				INFOPLIST_FILE = StockCarBroadcastRemainderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1035,7 +907,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C845FA4A785B7B70A20636BF /* Pods-StockCarBroadcastRemainderUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = 96837XF4KD;
 				INFOPLIST_FILE = StockCarBroadcastRemainderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
