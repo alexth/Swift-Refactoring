@@ -10,6 +10,7 @@
 		6EFEE96A5278415775DE54CE /* Pods_StockCarBroadcastRemainderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FB1D6891B1CBB56FF7D147 /* Pods_StockCarBroadcastRemainderTests.framework */; };
 		8D7657AEF73D7D1156BD8E65 /* Pods_StockCarBroadcastRemainderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46B00BE8F21CF4386CBDB05 /* Pods_StockCarBroadcastRemainderUITests.framework */; };
 		A24FAE68A5B37ABC766E5212 /* Pods_StockCarBroadcastRemainder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5A4513733777F72DFB8FF2 /* Pods_StockCarBroadcastRemainder.framework */; };
+		E503057E1DDF806E006A5F7C /* SeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E503057D1DDF806E006A5F7C /* SeriesView.swift */; };
 		E51D8C551DD51DA100873F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E51D8C501DD51DA100873F6F /* Assets.xcassets */; };
 		E51D8C561DD51DA100873F6F /* Broadcasters.json in Resources */ = {isa = PBXBuildFile; fileRef = E51D8C511DD51DA100873F6F /* Broadcasters.json */; };
 		E51D8C571DD51DA100873F6F /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = E51D8C521DD51DA100873F6F /* Events.json */; };
@@ -82,6 +83,7 @@
 		C424091ABB1145B5CD757B54 /* Pods-StockCarBroadcastRemainderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockCarBroadcastRemainderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockCarBroadcastRemainderTests/Pods-StockCarBroadcastRemainderTests.release.xcconfig"; sourceTree = "<group>"; };
 		C845FA4A785B7B70A20636BF /* Pods-StockCarBroadcastRemainderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockCarBroadcastRemainderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockCarBroadcastRemainderUITests/Pods-StockCarBroadcastRemainderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DE5A4513733777F72DFB8FF2 /* Pods_StockCarBroadcastRemainder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockCarBroadcastRemainder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E503057D1DDF806E006A5F7C /* SeriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesView.swift; sourceTree = "<group>"; };
 		E51D8C501DD51DA100873F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E51D8C511DD51DA100873F6F /* Broadcasters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Broadcasters.json; sourceTree = "<group>"; };
 		E51D8C521DD51DA100873F6F /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 			children = (
 				E52CFB201DC3E4B00029ADBD /* TableViewLabelHeaderView.swift */,
 				E52CFB211DC3E4B00029ADBD /* TableViewLabelHeaderView.xib */,
+				E503057D1DDF806E006A5F7C /* SeriesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -681,6 +684,7 @@
 				E564F8BE1DC4C2D800B29982 /* Serie+CoreDataClass.swift in Sources */,
 				E564F8B91DC4C2D800B29982 /* AudioBroadcaster+CoreDataProperties.swift in Sources */,
 				E52CFB121DC3E4850029ADBD /* MainTableVewCell.swift in Sources */,
+				E503057E1DDF806E006A5F7C /* SeriesView.swift in Sources */,
 				E53859931DD2167500ADC7EE /* UIView+Effects.swift in Sources */,
 				E5B205651DCE724200E18210 /* EventDetailsViewController.swift in Sources */,
 				E52CFB111DC3E4850029ADBD /* ImageTableViewCell.swift in Sources */,
