@@ -12,6 +12,7 @@ final class SeriesViewController: UIViewController {
     @IBOutlet weak var seriesTableView: UITableView!
     @IBOutlet weak var goNextButton: UIButton!
     @IBOutlet weak var seriesCountLabel: UILabel!
+    @IBOutlet weak var dragImageView: UIImageView!
 
     fileprivate let seriesCellIdentifier: String = "serieCell"
     fileprivate let numberOfSections: Int = 1

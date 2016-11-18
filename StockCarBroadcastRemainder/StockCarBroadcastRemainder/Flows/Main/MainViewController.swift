@@ -15,14 +15,13 @@ final class MainViewController: UIViewController {
     @IBOutlet weak var calendarButton: DynamicButton!
     @IBOutlet weak var topBarView: UIView!
     @IBOutlet weak var topBarHeightConstraint: NSLayoutConstraint!
-    @IBOutlet weak var seriesContainerView: UIView!
-    @IBOutlet weak var seriesContainerTopConstraint: NSLayoutConstraint!
+    @IBOutlet weak var seriesView: SeriesView!
+    @IBOutlet weak var seriesViewTopConstraint: NSLayoutConstraint!
 
     fileprivate var currentWeekEventsArray = [Event]()
     fileprivate var futureEventsArray = [Event]()
     fileprivate let cellIdentifier: String = "mainCell"
     fileprivate let eventDetailsSegue = "toEventDetails"
-    fileprivate let seriesSubviewSegue = "seriesSubview"
     fileprivate let mainTableViewSectionsCount = 2
     fileprivate let currentWeekEventsSection = 0
     fileprivate let futureEventsSection = 1
@@ -39,18 +38,17 @@ final class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         navigationController?.navigationBar.isHidden = true
-//        seriesButton.style = .caretDown
-        updateEvents()
-        super.viewDidLoad()
         seriesButton.style = DynamicButtonStyle.caretDown
 
+        updateEvents()
+        super.viewDidLoad()
+        seriesView.setupDataAndView()
         // TODO:
         calendarButton.isHidden = true
 //        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Series", style: .plain, target: self, action: "presentLeftMenuViewController")
 //        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Calendar", style: .Plain, target: self, action: "presentRightMenuViewController")
 //        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.selectedSeriesChanged(_:)), name: NSNotification.Name(rawValue: Notifications.updateSeriesNotification), object: nil)
 //        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.displayEvent(_:)), name: NSNotification.Name(rawValue: Notifications.displayEventData), object: nil)
-        containerViewAppearance()
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -85,14 +83,14 @@ final class MainViewController: UIViewController {
 
 extension MainViewController {
     @IBAction func didPress(menuButton: UIButton) {
-        UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.60, initialSpringVelocity: 0, options: [], animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0, options: [], animations: {
             if self.topBarOpened == false {
                 self.topBarHeightConstraint.constant = self.topBarExpandedHeight
-                self.seriesContainerTopConstraint.constant = self.containerExpandedBottom
+                self.seriesViewTopConstraint.constant = self.containerExpandedBottom
                 self.seriesButton.style = DynamicButtonStyle.caretUp
             } else {
                 self.topBarHeightConstraint.constant = self.topBarDefaultHeight
-                self.seriesContainerTopConstraint.constant = self.containerDefaultBottom
+                self.seriesViewTopConstraint.constant = self.containerDefaultBottom
                 self.seriesButton.style = DynamicButtonStyle.caretDown
             }
             self.topBarOpened = !self.topBarOpened
@@ -202,11 +200,5 @@ extension MainViewController: MainTableViewCellDelegate {
         event.isReminderSet = true
         DatabaseManager.sharedInstance.saveContext()
         cell.setReminderStatusButtonImage()
-    }
-}
-
-extension MainViewController {
-    fileprivate func containerViewAppearance() {
-        seriesContainerView.addShadow()
     }
 }
