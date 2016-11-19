@@ -161,26 +161,12 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="iPT-sk-bjS"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P7x-me-9rU" customClass="SeriesView" customModule="StockCarBroadcastRemainder" customModuleProvider="target">
-                                <rect key="frame" x="67.5" y="-150" width="240" height="150"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="NVg-3W-GNJ"/>
-                                    <constraint firstAttribute="height" constant="150" id="jrY-7Z-N6H"/>
-                                </constraints>
-                                <connections>
-                                    <outlet property="heightConstraint" destination="jrY-7Z-N6H" id="7Au-xf-KOf"/>
-                                    <outlet property="widthConstraint" destination="NVg-3W-GNJ" id="vW4-BU-qJC"/>
-                                </connections>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="F6r-MR-hcj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4wX-We-8qv"/>
-                            <constraint firstItem="P7x-me-9rU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7BN-Mi-ovA"/>
                             <constraint firstAttribute="trailing" secondItem="xaA-qe-zcj" secondAttribute="trailing" id="Aic-bZ-ms0"/>
                             <constraint firstItem="xaA-qe-zcj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Mag-Kb-o0K"/>
-                            <constraint firstItem="P7x-me-9rU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-150" id="NIq-OB-dwP"/>
                             <constraint firstItem="xaA-qe-zcj" firstAttribute="top" secondItem="F6r-MR-hcj" secondAttribute="bottom" id="Xbo-Nd-Ydd"/>
                             <constraint firstAttribute="trailing" secondItem="F6r-MR-hcj" secondAttribute="trailing" id="YoZ-I2-nz6"/>
                             <constraint firstItem="F6r-MR-hcj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="an1-qb-wBj"/>
@@ -193,8 +179,6 @@
                         <outlet property="calendarButton" destination="hk7-nw-oTH" id="SrW-G9-GXn"/>
                         <outlet property="mainTableView" destination="xaA-qe-zcj" id="h8Z-04-TUP"/>
                         <outlet property="seriesButton" destination="XxP-8G-km6" id="Op2-h0-igz"/>
-                        <outlet property="seriesView" destination="P7x-me-9rU" id="a5a-py-h1M"/>
-                        <outlet property="seriesViewTopConstraint" destination="NIq-OB-dwP" id="FRZ-yI-82r"/>
                         <outlet property="topBarHeightConstraint" destination="Pzv-ZA-kIw" id="E8y-Wv-IIW"/>
                         <outlet property="topBarView" destination="F6r-MR-hcj" id="nKn-Ms-LbP"/>
                         <segue destination="hyv-hS-4ym" kind="showDetail" identifier="toEventDetails" id="DKx-aC-qno"/>

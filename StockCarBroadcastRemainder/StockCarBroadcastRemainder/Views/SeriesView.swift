@@ -9,8 +9,8 @@
 import UIKit
 
 class SeriesView: UIView {
-    @IBOutlet weak var heightConstraint: NSLayoutConstraint!
-    @IBOutlet weak var widthConstraint: NSLayoutConstraint!
+//    @IBOutlet weak var heightConstraint: NSLayoutConstraint!
+//    @IBOutlet weak var widthConstraint: NSLayoutConstraint!
 
     fileprivate var seriesArray = [Serie]()
     fileprivate var viewController: MainViewController!
@@ -41,7 +41,7 @@ class SeriesView: UIView {
     //MARK: - Setup
 
     func setupDataAndView() {
-        heightConstraint.constant = CGFloat(self.seriesArray.count) * buttonHeight + verticalTopInset + imageViewHeight
+//        heightConstraint.constant = CGFloat(self.seriesArray.count) * buttonHeight + verticalTopInset + imageViewHeight
 
         addShadow()
         addButtons()

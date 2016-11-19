@@ -15,8 +15,9 @@ final class MainViewController: UIViewController {
     @IBOutlet weak var calendarButton: DynamicButton!
     @IBOutlet weak var topBarView: UIView!
     @IBOutlet weak var topBarHeightConstraint: NSLayoutConstraint!
-    @IBOutlet weak var seriesView: SeriesView!
-    @IBOutlet weak var seriesViewTopConstraint: NSLayoutConstraint!
+//    @IBOutlet weak var seriesView: SeriesView!
+//    @IBOutlet weak var seriesViewTopConstraint: NSLayoutConstraint!
+    fileprivate var seriesView: SeriesView!
 
     fileprivate var currentWeekEventsArray = [Event]()
     fileprivate var futureEventsArray = [Event]()
@@ -42,11 +43,9 @@ final class MainViewController: UIViewController {
 
         updateEvents()
         super.viewDidLoad()
-        seriesView.setupDataAndView()
+        setupSeriesView()
         // TODO:
         calendarButton.isHidden = true
-//        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Series", style: .plain, target: self, action: "presentLeftMenuViewController")
-//        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Calendar", style: .Plain, target: self, action: "presentRightMenuViewController")
 //        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.selectedSeriesChanged(_:)), name: NSNotification.Name(rawValue: Notifications.updateSeriesNotification), object: nil)
 //        NotificationCenter.default.addObserver(self, selector: #selector(MainViewController.displayEvent(_:)), name: NSNotification.Name(rawValue: Notifications.displayEventData), object: nil)
     }
@@ -65,6 +64,13 @@ final class MainViewController: UIViewController {
     }
 
     func displayEvent(notification: Notification) {
+    }
+
+    fileprivate func setupSeriesView() {
+//        seriesView = SeriesView(subView: self)
+        seriesView = SeriesView(frame: <#T##CGRect#>)
+        seriesView.setupDataAndView()
+
     }
 
     fileprivate func updateEvents() {
@@ -86,11 +92,13 @@ extension MainViewController {
         UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0, options: [], animations: {
             if self.topBarOpened == false {
                 self.topBarHeightConstraint.constant = self.topBarExpandedHeight
-                self.seriesViewTopConstraint.constant = self.containerExpandedBottom
+//                self.seriesViewTopConstraint.constant = self.containerExpandedBottom
+                self.seriesView.frame.origin.y = self.containerExpandedBottom
                 self.seriesButton.style = DynamicButtonStyle.caretUp
             } else {
                 self.topBarHeightConstraint.constant = self.topBarDefaultHeight
-                self.seriesViewTopConstraint.constant = self.containerDefaultBottom
+//                self.seriesViewTopConstraint.constant = self.containerDefaultBottom
+                self.seriesView.frame.origin.y = self.containerDefaultBottom
                 self.seriesButton.style = DynamicButtonStyle.caretDown
             }
             self.topBarOpened = !self.topBarOpened
